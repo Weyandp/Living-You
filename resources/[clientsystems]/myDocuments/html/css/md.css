@@ -1,0 +1,168 @@
+#md {
+    height: 310px;
+    width: 521px;
+    position: absolute;
+    background-image: url('../img/md.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: aliceblue; */
+}
+
+#md_sexImg {
+    left: 40px;
+    bottom: 80px;
+    height: 175px;
+}
+
+#md_logo {
+    left: 225px;
+    top: 50px;
+    height: 110px;
+}
+
+#md_titleDiv {
+    left: 350px;
+    top: 40px;
+    width: fit-content;
+}
+
+#md_title {
+    font-size: 30px;
+    color: #252827;
+}
+
+#md_subtitle {
+    font-size: 18px;
+    color: #252827;
+}
+
+#md .info {
+    color: #FE696E;
+}
+
+#md .value {
+    font-size: 15px;
+}
+
+#md_nameDiv {
+    top: 180px;
+}
+
+#md_rankDiv {
+    top: 215px;
+}
+
+#md .left {
+    left: 225px;
+}
+
+#md .sign {
+    top: 225px;
+    left: 180px;
+}
+
+@media (min-height: 1440px) { 
+    #md {
+        height: 420px;
+        width: 700px;
+    }
+    
+    #md_sexImg {
+        left: 55px;
+        bottom: 106px;
+        height: 232px;
+    }
+    
+    #md_logo {
+        left: 335px;
+        top: 67px;
+        height: 147px;
+    }
+    
+    #md_titleDiv {
+        left: 495px;
+        top: 53px;
+    }
+    
+    #md_title {
+        font-size: 40px;
+    }
+    
+    #md_subtitle {
+        font-size: 24px;
+    }
+    
+    #md .value {
+        font-size: 20px;
+    }
+    
+    #md_nameDiv {
+        top: 240px;
+    }
+    
+    #md_rankDiv {
+        top: 285px;
+    }
+    
+    #md .left {
+        left: 320px;
+    }
+    
+    #md .sign {
+        top: 310px;
+        left: 240px;
+    }
+} /* * 1,33 */
+
+@media (min-height: 2160px) { 
+    #md {
+        height: 625px;
+        width: 1050px;
+    }
+    
+    #md_sexImg {
+        left: 72px;
+        bottom: 159px;
+        height: 348px;
+    }
+    
+    #md_logo {
+        left: 502px;
+        top: 100px;
+        height: 197px;
+    }
+    
+    #md_titleDiv {
+        left: 742px;
+        top: 79px;
+    }
+    
+    #md_title {
+        font-size: 60px;
+    }
+    
+    #md_subtitle {
+        font-size: 36px;
+    }
+    
+    #md .value {
+        font-size: 30px;
+    }
+    
+    #md_nameDiv {
+        top: 360px;
+    }
+    
+    #md_rankDiv {
+        top: 427px;
+    }
+    
+    #md .left {
+        left: 480px;
+    }
+    
+    #md .sign {
+        top: 480px;
+        left: 360px;
+    }
+} /* * 1,5 */

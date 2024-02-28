@@ -1,0 +1,26 @@
+:root {
+    --clr-red: #FF5454;
+    --clr-red-background: rgba(255, 106, 106, 0.7);
+    
+    --clr-blue: #ff7800;
+    --clr-blue-hover: #ff7800;
+    --clr-blue-background: rgba(180, 118, 31, 0.25);
+    --clr-blue-background-secondary: rgba(180, 110, 31, 0.61);
+    --clr-blue-background-hover: rgba(180, 115, 31, 0.5);
+	--clr-blue-category-hover: linear-gradient(90deg, #ff7800, rgba(55, 177, 31, 0) 100%);
+	
+    --clr-white: #FFFFFF;
+	--clr-white-secondary: rgba(255, 255, 255, 0.48);
+    
+    --clr-linear-gradient: radial-gradient(40.93% 40.93% at 50% 97.5%, #ff77002e, rgba(255, 255, 255, 0) 100%), radial-gradient(46.28% 146.26% at 96.28% 60.79%, rgba(207, 124, 9, 0.158) 0%, rgba(0, 0, 0, 0) 100%), #3a220c;
+    
+    --clr-background: rgba(255, 255, 255, 0.57);
+    --clr-background-secondary: rgba(255, 255, 255, 0.24);
+    --clr-background-secondary-2: rgba(255, 255, 255, 0.04);
+    --clr-background-secondary-3: rgba(194, 113, 13, 0.24);
+    --clr-background-secondary-4: rgba(255, 255, 255, 0.02);
+    --clr-background-secondary-5: rgba(255, 255, 255, 0.15);
+
+    --clr-txt-shadow: rgba(255, 255, 255, 0.25);
+    --clr-txt-shadow-secondary: rgba(255, 255, 255, 0.25);
+}

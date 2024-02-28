@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link
+		href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/idcard.css">
+	<link rel="stylesheet" href="css/drive.css">
+	<link rel="stylesheet" href="css/hunting.css">
+	<link rel="stylesheet" href="css/fly.css" />
+	<link rel="stylesheet" href="css/boat.css" />
+	<link rel="stylesheet" href="css/md.css" />
+	<link rel="stylesheet" href="css/pd.css" />
+	<link rel="stylesheet" href="css/weapon.css" />
+	<link rel="stylesheet" href="css/lawyer.css" />
+	<link rel="stylesheet" href="css/businesscard.css" />
+	<link rel="stylesheet" href="css/menu.css" />
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+	<section id="licensesMenu">
+		<p id="verticalTitle" class="white madeTommyMedium">LIZENZEN</p>
+		<div id="giveLicenses" class="white noMarginPadding madeTommyRegular">
+			<p id="giveLicensesTitle" class="madeTommyMedium">Lizenzen an  verteilen</p>
+			<div id="licenses">
+				
+			</div>
+			<div id="giveLicensesButtons">
+				<p id="accept">Bestätigen</p>
+				<p id="abort">Abbrechen</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="menu">
+		<i id="closeBtn" class="material-icons-round">close</i>
+		<div id="titleDiv">
+			<p id="title" class="white madeTommyMedium noMarginPadding titleDoc">DOKUMENTE</p>
+			<i id="icon" class="material-icons-round noMarginPadding">menu</i>
+			<p id="subtitle" class="white madeTommyRegular noMarginPadding titleSubDoc">Schaue dir deine eigenen
+				Dokumente
+				an oder
+				zeige sie anderen vor</p>
+		</div>
+		<div id="buttons" class="white noMarginPadding madeTommyRegular textCenter">
+			<p id="myDocuments" class="selected hoverEffect">Meine Dokumente</p>
+			<p id="savedDocuments" class="hoverEffect">Gespeicherte Dokumente</p>
+		</div>
+
+		<div id="myDocumentsList">
+		</div>
+
+		<div id="savedDocumentsList">
+
+		</div>
+
+		<p id="openLicenseMenu" class="white madeTommyRegular">Lizenzen geben</p>
+
+	</section>
+
+	<section id="idcard" class="sect">
+		<p id="id_title" class="madeTommy_medium title left blue absolute"></p>
+		<p id="id_subtitle" class="madeTommy_medium subtitle left blue absolute"></p>
+		<p id="id_rightTitle" class="madeTommy_medium title right blue absolute"></p>
+		<p id="id_rightSubtitle" class="madeTommy_medium subtitle right blue absolute"></p>
+		<img id="id_sexImg" src="./img/male.png">
+
+		<div id="id_nameDiv" class="absolute middleRow smallLine">
+			<p id="id_nameInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="id_name" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+
+		<div id="id_firstnameDiv" class="absolute middleRow smallLine">
+			<p id="id_firstnameInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="id_firstname" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+
+		<div id="id_addressDiv" class="absolute middleRow smallLine">
+			<p id="id_addressInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="id_address" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+
+		<div id="id_sexDiv" class="absolute middleRow smallLine">
+			<p id="id_sexInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="id_sex" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+
+		<div id="id_dobDiv" class="absolute smallLine secRow">
+			<p id="id_dobInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="id_dob" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+
+		<div id="id_idDiv" class="absolute middleRow smallLine">
+			<p id="id_idInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="id_id" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+
+		<div id="id_doiDiv" class="absolute smallLine secRow">
+			<p id="id_doiInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="id_doi" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+
+		<div id="id_signDiv" class="absolute middleRow smallLine">
+			<p id="id_signInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="id_sign" class="signature value zeroMargin sign"></p>
+		</div>
+	</section>
+
+	<section id="drive" class="sect">
+		<p id="dr_title" class="madeTommy_medium title left blue absolute"></p>
+		<p id="dr_rightTitle" class="madeTommy_medium title right blue absolute"></p>
+		<img id="dr_sexImg" src="./img/male.png">
+		<!-- <img src="./img/female.png"> -->
+
+		<div id="dr_nameDiv" class="absolute middleRow smallLine">
+			<p id="dr_nameInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="dr_name" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+
+		<div id="dr_firstnameDiv" class="absolute middleRow smallLine">
+			<p id="dr_firstnameInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="dr_firstname" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+
+		<div id="dr_dobDiv" class="absolute middleRow smallLine">
+			<p id="dr_dobInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="dr_dob" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+
+		<div id="dr_idDiv" class="absolute middleRow smallLine">
+			<p id="dr_idInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="dr_id" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+
+		<div id="dr_signDiv" class="absolute middleRow smallLine">
+			<p id="dr_signInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="dr_sign" class="signature sign zeroMargin"></p>
+		</div>
+
+		<div id="dr_classesDiv" class="absolute secRow">
+			<p id="dr_classesInfo" class="madeTommy_regular info grey zeroMargin"></p>
+			<p id="dr_classes" class="madeTommy_medium value zeroMargin"></p>
+		</div>
+	</section>
+
+	<section id="hunting" class="sect">
+		<p id="hu_title" class="madeTommy_medium title middleRow absolute"></p>
+		<p id="hu_subtitle" class="madeTommy_medium subtitle left absolute"></p>
+
+		<div id="hu_nameDiv" class="absolute middleRow smallLine">
+			<p id="hu_name" class="madeTommy_medium value zeroMargin"></p>
+			<p id="hu_nameInfo" class="madeTommy_medium info grey zeroMargin"></p>
+		</div>
+
+		<div id="hu_addressDiv" class="absolute middleRow smallLine">
+			<p id="hu_address" class="madeTommy_medium value zeroMargin"></p>
+			<p id="hu_addressInfo" class="madeTommy_medium info grey zeroMargin"></p>
+		</div>
+
+		<div id="hu_dobDiv" class="absolute middleRow smallLine">
+			<p id="hu_dob" class="madeTommy_medium value zeroMargin"></p>
+			<p id="hu_dobInfo" class="madeTommy_medium info grey zeroMargin"></p>
+		</div>
+
+		<div id="hu_stampDiv" class="absolute smallLine secRow">
+			<p id="hu_stampInfo" class="madeTommy_medium info grey zeroMargin"></p>
+		</div>
+
+		<div id="hu_signDiv" class="absolute smallLine">
+			<p id="hu_sign" class="signature sign zeroMargin"></p>
+			<!-- <p id="hu_signInfo" class="madeTommy_medium info grey zeroMargin"></p> -->
+		</div>
+	</section>
+
+	<section id="fly" class="sect">
+		<div id="fl_titleDiv" class="absolute centerText">
+			<p id="fl_title" class="thedus title white zeroMargin"></p>
+			<p id="fl_subtitle" class="thedus subtitle white zeroMargin"></p>
+		</div>
+
+		<p id="fl_name" class="madeTommy_regular value darkGrey absolute centerText">, </p>
+		<p id="fl_id" class="madeTommy_regular value white absolute centerText right"><span id="fl_idInfo"></span> </p>
+		<!-- <p id="fl_dob" class="madeTommy_regular value white absolute centerText left"></p> -->
+		<p id="fl_sign" class="signature sign white absolute centerText left"></p>
+
+	</section>
+
+	<section id="boat" class="sect">
+		<p id="bo_title" class="hamburgHand left title white zeroMargin absolute"></p>
+		<p id="bo_title2" class="hamburgHand right title white zeroMargin absolute"></p>
+
+		<div id="bo_nameDiv" class="absolute middleRow">
+			<p id="bo_firstname" class="madeTommy_regular value white zeroMargin"></p>
+			<p id="bo_name" class="madeTommy_regular value white zeroMargin"></p>
+			<p id="bo_dob" class="madeTommy_regular value white zeroMargin"></p>
+		</div>
+
+		<div id="bo_licenseNoDiv" class="right absolute rightText">
+			<p id="bo_licenseNoinfo" class="madeTommy_regular value white zeroMargin"></p>
+			<p id="bo_id" class="madeTommy_regular value white zeroMargin"></p>
+		</div>
+
+		<p id="bo_sign" class="signature sign white zeroMargin centerText absolute zIndex"></p>
+
+		<img id="bo_sexImg" src="./img/male.png" alt="">
+	</section>
+
+	<section id="md" class="sect">
+		<img src="./img/male.png" alt="" id="md_sexImg" class="absolute">
+		<img src="./img/md_logo.png" alt="" id="md_logo" class="absolute">
+
+		<div id="md_titleDiv" class="right absolute">
+			<p id="md_title" class="madeTommy_regular title black zeroMargin"></p>
+			<p id="md_subtitle" class="madeTommy_regular subtitle black zeroMargin"></p>
+		</div>
+
+		<div id="md_nameDiv" class="left absolute">
+			<p id="md_name" class="madeTommy_regular value white zeroMargin"></p>
+			<p id="md_nameInfo" class="madeTommy_regular info zeroMargin"></p>
+		</div>
+
+		<div id="md_rankDiv" class="left absolute">
+			<p id="md_rank" class="madeTommy_regular value white zeroMargin"></p>
+			<p id="md_rankInfo" class="madeTommy_regular info zeroMargin"></p>
+		</div>
+
+		<p id="md_sign" class="signature left sign white zeroMargin centerText absolute zIndex"></p>
+
+	</section>
+
+	<section id="pd" class="sect">
+		<img src="./img/male.png" id="pd_sexImg" class="absolute">
+		<img src="./img/pd_logo.png" id="pd_logo" class="absolute">
+		<img src="./img/pd_logo.png" id="pd_logoBk" class="absolute">
+
+		<div id="pd_titleDiv" class="middleRow absolute">
+			<p id="pd_title" class="keepCalm title zeroMargin"></p>
+			<p id="pd_subtitle" class="keepCalm subtitle zeroMargin"></p>
+		</div>
+
+		<div id="pd_nameDiv" class="middleRow absolute smallLine">
+			<p id="pd_nameInfo" class="keepCalm info zeroMargin bold"></p>
+			<p id="pd_name" class="keepCalm value white zeroMargin bold"></p>
+		</div>
+
+		<div id="pd_rankDiv" class="middleRow absolute smallLine">
+			<p id="pd_rankInfo" class="keepCalm info zeroMargin bold"></p>
+			<p id="pd_rank" class="keepCalm value white zeroMargin bold"></p>
+		</div>
+
+		<p id="pd_sign" class="signature middleRow sign zeroMargin centerText absolute zIndex"></p>
+		<p id="pd_subtitle2" class="keepCalm right subtitle zeroMargin centerText absolute zIndex bold"></p>
+	</section>
+
+	<section id="weapon" class="sect">
+		<img src="./img/male.png" id="we_sexImg" class="absolute">
+		<p id="we_title" class="hamburgHand title white zeroMargin absolute middle centerText"></p>
+		<p id="we_subtitle" class="hamburgHand title white zeroMargin absolute middle centerText"></p>
+
+		<div id="we_content" class="absolute middleRow">
+			<p id="we_name" class="hamburgHand value zeroMargin"></p>
+			<p id="we_firstname" class="hamburgHand value zeroMargin"></p>
+			<br>
+			<p id="we_dob" class="hamburgHand value zeroMargin"></p>
+			<br>
+			<p id="we_address" class="hamburgHand value zeroMargin"></p>
+		</div>
+	</section>
+
+	<section id="lawyer" class="sect">
+		<img src="./img/male.png" id="la_sexImg" class="absolute">
+		<p id="la_title" class="timesNew title white zeroMargin absolute"></p>
+		<p id="la_rightTitle" class="timesNew right title white zeroMargin absolute"></p>
+
+		<table id="la_content" class="absolute middleRow white">
+			<tr>
+				<td id="la_nameInfo" class="info timesNew zeroMargin"></td>
+				<td id="la_name" class="timesNew value zeroMargin"></td>
+			</tr>
+			<tr>
+				<td id="la_addressInfo" class="info timesNew zeroMargin"></td>
+				<td id="la_address" class="timesNew value zeroMargin"></td>
+			</tr>
+			<tr>
+				<td colspan="2" class="timesNew zeroMargin">
+					<p id="la_text"></p>
+				</td>
+			</tr>
+		</table>
+
+		<div id="la_signJudgeDiv" class="left absolute white">
+			<p id="la_signJudge" class="signature value white zeroMargin centerText"></p>
+			<p id="la_signInfoJudge" class="timesNew zeroMargin centerText"></p>
+		</div>
+
+		<div id="la_signDiv" class="left absolute white">
+			<p id="la_sign" class="signature value white zeroMargin centerText"></p>
+			<p id="la_signInfo" class="timesNew zeroMargin centerText"></p>
+		</div>
+	</section>
+
+	<section id="businessCard" class="sect">
+		<p id="bu_name" class="title madeTommy_medium white zeroMargin left absolute"></p>
+		<p id="bu_job" class="value madeTommy_regular white zeroMargin left absolute"></p>
+		<p id="bu_number" class="value madeTommy_regular white zeroMargin middleRow absolute"></p>
+		<p id="bu_mail" class="value madeTommy_regular white zeroMargin middleRow absolute"></p>
+		<p id="bu_address" class="value madeTommy_regular white zeroMargin middleRow absolute"></p>
+	</section>
+</body>
+
+</html>

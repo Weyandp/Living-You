@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "MEcQ1bLqYWVxyFHYjJa/UY4I3mMnslktfKd+xIpPqL9iErFxSoyekU3Q8itxsC004rFInZnPeK2/85xbENDIWg==",
+  "success": true,
+  "projectFilePath": "F:\\saltychat-fivem-master\\saltychat\\SaltyServer\\SaltyServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ehren\\.nuget\\packages\\citizenfx.core.server\\1.0.4838\\citizenfx.core.server.1.0.4838.nupkg.sha512",
+    "C:\\Users\\ehren\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ehren\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ehren\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

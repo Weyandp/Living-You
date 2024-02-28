@@ -1,0 +1,19 @@
+:root {
+  --shadowheadertext: 0px 0px 2.08333vw rgba(7, 164, 220, 0.65);
+  --bordertext: #07A4DC;
+  --closebtn: rgba(255, 40, 40, 0.25);
+  --closebtnhover: rgba(255, 40, 40, 0.35);
+  --closebtnborderhover: 0.05208vw solid #FF2828;
+  --closebtnshadowhover: 0px 0.52083vw 1.45833vw rgba(255, 40, 40, 0.35);
+  --closebtnborder: 0.05208vw solid rgba(255, 40, 40, 0.5);
+  --buttonbackground: rgba(226, 255, 49, 0.05);
+  --buttonborder: 0.05208vw solid rgba(226, 255, 49, 0.15);
+  --buttonbackgroundhover: rgba(226, 255, 49, 0.15);
+  --buttonborderhover: 0.05208vw solid #E2FF31;
+  --buttonshadowhover: 0px 0px 1.66667vw rgba(226, 255, 49, 0.25);
+  --successicnshadow: drop-shadow(0px 0px 1.66667vw rgba(226, 255, 49, 0.25));
+  --erroricnshadow: drop-shadow(0px 0px 1.66667vw rgba(255, 40, 40, 0.25));
+  --headercolor: radial-gradient(69.12% 69.12% at 50% 50%, #07A4DC 0%, rgba(0, 0, 0, 0) 70%);
+  --backgroundsecondblock: radial-gradient(40.93% 40.93% at 50% 97.5%, rgba(33, 105, 134, 0.066) 4.88%, rgba(255, 255, 255, 0) 100%), radial-gradient(46.28% 146.26% at 96.28% 60.79%, rgba(33, 105, 134, 0.2) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(76.46% 241.65% at 5.23% 8.7%, rgba(33, 105, 134, 0.2) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #000000;
+  --backgroundheaderblock: radial-gradient(40.93% 40.93% at 50% 97.5%, rgba(33, 105, 134, 0.066) 4.88%, rgba(255, 255, 255, 0) 100%), radial-gradient(46.28% 146.26% at 96.28% 60.79%, rgba(33, 105, 134, 0.2) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(76.46% 241.65% at 5.23% 8.7%, rgba(33, 105, 134, 0.2) 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #060B0D;
+}

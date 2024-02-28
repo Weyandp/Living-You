@@ -1,0 +1,12 @@
+:root {
+    --mnstyle: radial-gradient(40.93% 40.93% at 50.00% 97.50%, rgba(33, 105, 134, 0.08) 4.88%, rgba(255, 255, 255, 0.00) 100%), radial-gradient(151.42% 60.66% at 96.28% 60.79%, rgba(33, 105, 134, 0.25) 0%, rgba(0, 0, 0, 0.00) 100%), radial-gradient(242.14% 78.00% at 5.23% 8.70%, rgba(33, 105, 134, 0.25) 0%, rgba(0, 0, 0, 0.00) 100%), #000;
+    --backgroundshadow: radial-gradient(201.39% 201.39% at 50.00% 50.00%, #00080B 0%, rgba(0, 8, 11, 0.00) 100%);
+    --headercolor: radial-gradient(69.12% 69.12% at 50% 50%, #07A4DC 0%, rgba(0, 0, 0, 0) 70%);
+    --bordertext: #07A4DC;
+    --shadowheadertext: 0px 0px 2.08333vw rgba(7, 164, 220, 0.65);
+    --minbxshadow: 0px 0px 1.66667vw rgba(7, 164, 220, 0.50);
+    --bginfs: linear-gradient(180deg, rgba(7, 164, 220, 0.10) 0%, rgba(0, 0, 0, 0.00) 100%);
+    --windowbg: rgba(0, 14, 19, 0.95);
+    --windowtextshadow: rgba(255, 255, 255, 0.50);
+    --windowtextshadowsec: rgba(7, 164, 220, 0.50);
+}

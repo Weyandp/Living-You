@@ -1,0 +1,533 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Brothership';
+    src: url(fonts/Brothership.ttf);
+}
+
+* {
+    margin: 0;
+    transition: all 0.25s ease-in-out;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    overflow: hidden;
+    font-family: 'Montserrat-Bold';
+    opacity: 0;
+}
+
+:root {
+    --px-in-vh: 0.09360251046025104vh;
+}
+
+.container-lifeinvader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: calc(var(--px-in-vh) * 890);
+    height: calc(var(--px-in-vh) * 587);
+}
+
+.container-lifeinvader-left {
+    position: absolute;
+    width: calc(var(--px-in-vh) * 490);
+    height: calc(var(--px-in-vh) * 586);
+    border-radius: calc(var(--px-in-vh) * 15);
+    background: var(--container-left-color);
+    border: 0.2vh solid transparent;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    border: 0.05vh solid var(--border-colors);
+}
+
+#logo1 {
+    position: absolute;
+    width: 6vh;
+    top: 3%;
+    left: 0.5%;
+    object-fit: contain;
+}
+
+#logo2 {
+    position: absolute;
+    width: 25vh;
+    left: -17%;
+    opacity: 0.1;
+    bottom: -18%;
+    object-fit: contain;
+    transform: rotate(-45deg);
+}
+
+.lifeinvader {
+    position: absolute;
+    color: var(--main-color);
+    left: 12.2%;
+    top: 5%;
+    text-shadow: 0vh calc(var(--px-in-vh) * 4) calc(var(--px-in-vh) * 13) 0vh var(--main-color);
+    font-size: calc(var(--px-in-vh) * 20);
+}
+
+.servername {
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    left: 12.2%;
+    top: 8%;
+    font-size: calc(var(--px-in-vh) * 18);
+}
+
+.werbung-input {
+    position: absolute;
+    display: flex;
+    top: 19.5%;
+    justify-content: center;
+}
+
+.werbung-input textarea {
+    position: absolute;
+    width: calc(var(--px-in-vh) * 380);
+    height: calc(var(--px-in-vh) * 175);
+    border-radius: calc(var(--px-in-vh) * 15);
+    outline: none;
+    padding-top: 1vh;
+    padding-left: 1vh;
+    resize: none;
+    display: flex;
+    font-size: 1vh;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Montserrat-SemiBold';
+    border: calc(var(--px-in-vh) * 0.5) solid rgba(255, 255, 255, 0.44);
+    background: rgba(24, 24, 24, 0.5);
+}
+
+::placeholder {
+    position: absolute;
+    top: 5.6%;
+    left: 2.8%;
+}
+
+.letters-left {
+    position: absolute;
+    display: flex;
+    bottom: 49.5%;
+    right: 11.5%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: calc(var(--px-in-vh) * 7);
+}
+
+.max-letters {
+    margin-left: 0.1vh;
+}
+
+.container-privat-anonym {
+    position: absolute;
+    top: 55.3%;
+    display: flex;
+    gap: 1vh;
+    width: 37vh;
+    height: 5.2vh;
+}
+
+input[id='public']:after {
+    position: absolute;
+    font-family: 'FontAwesome';
+    content: '\f06e';
+    font-size: 2.1vh;
+    top: 17%;
+}
+
+input[id='anonym']:after {
+    position: absolute;
+    font-family: 'FontAwesome';
+    content: '\f070';
+    font-size: 2.1vh;
+    top: 17%;
+}
+
+input[type='radio'] {
+    position: relative;
+    appearance: none;
+    width: calc(var(--px-in-vh) * 191);
+    height: calc(var(--px-in-vh) * 53);
+    background: rgba(85, 85, 85, 0.1);
+    border-radius: calc(var(--px-in-vh) * 12);
+    color: #ffffff1a;
+    -webkit-text-stroke: calc(var(--px-in-vh) * 0.5);
+    -webkit-text-stroke-color: #868686;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[id='public']:hover {
+    cursor: pointer;
+    background: linear-gradient(45deg, var(--radio-background-color) 0%, var(--radio-background-color2) 100%);
+    color: var(--radio-icon-color-after);
+    -webkit-text-stroke: calc(var(--px-in-vh) * 0.5);
+    -webkit-text-stroke-color: var(--main-color);
+}
+
+input[id='public']:checked {
+    background: linear-gradient(45deg, var(--radio-background-color) 0%, var(--radio-background-color2) 100%);
+    color: var(--radio-icon-color-after);
+    -webkit-text-stroke: calc(var(--px-in-vh) * 0.5);
+    -webkit-text-stroke-color: var(--main-color);
+    content: '\f06e';
+    border: 0.1vh solid var(--main-color);
+}
+
+input[id='anonym']:hover {
+    cursor: pointer;
+    background: linear-gradient(45deg, var(--radio-background-color) 0%, var(--radio-background-color2) 100%);
+    color: var(--radio-icon-color-after);
+    -webkit-text-stroke: calc(var(--px-in-vh) * 0.5);
+    -webkit-text-stroke-color: var(--main-color);
+}
+
+input[id='anonym']:checked {
+    background: linear-gradient(45deg, var(--radio-background-color) 0%, var(--radio-background-color2) 100%);
+    content: '\f070';
+    color: var(--radio-icon-color-after);
+    -webkit-text-stroke: calc(var(--px-in-vh) * 0.5);
+    -webkit-text-stroke-color: var(--main-color);
+    border: 0.01vh solid var(--main-color);
+}
+
+.public {
+    position: absolute;
+    left: 17.5%;
+    top: 60%;
+    font-size: 0.9vh;
+    color: #fff;
+    pointer-events: none;
+}
+
+.anonym {
+    position: absolute;
+    left: 69.5%;
+    top: 60%;
+    font-size: 0.9vh;
+    color: #fff;
+    pointer-events: none;
+}
+
+.container-price {
+    position: absolute;
+    width: calc(var(--px-in-vh) * 395);
+    height: calc(var(--px-in-vh) * 110);
+    border-radius: calc(var(--px-in-vh) * 12);
+    top: 67%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgba(112, 112, 112, 0.1);
+}
+
+.werbung-price {
+    position: absolute;
+    display: flex;
+    top: 35%;
+    font-family: 'Brothership';
+    color: #4ae069;
+    text-shadow: 0vh 0vh calc(var(--px-in-vh) * 19) 0vh rgba(100, 243, 130, 0.69);
+    font-size: calc(var(--px-in-vh) * 50);
+}
+
+.price-dollar {
+    margin-left: 1.2vh;
+}
+
+#money1 {
+    position: absolute;
+    width: calc(var(--px-in-vh) * 66.823);
+    height: calc(var(--px-in-vh) * 66.823);
+    transform: rotate(-75deg);
+    left: -3%;
+    bottom: -13%;
+    filter: drop-shadow(0vh 0vh calc(var(--px-in-vh) * 25) 0vh #3d773d);
+    opacity: 0.8;
+}
+
+#money2 {
+    position: absolute;
+    width: calc(var(--px-in-vh) * 66.823);
+    height: calc(var(--px-in-vh) * 66.823);
+    filter: blur(calc(var(--px-in-vh) * 0.5));
+    opacity: 0.6;
+    top: -20%;
+    right: -6%;
+    transform: rotate(-75deg);
+}
+
+.container-werbung-schalten {
+    position: absolute;
+    bottom: 6%;
+    width: calc(var(--px-in-vh) * 395);
+    display: flex;
+    align-items: center;
+    background: rgba(112, 112, 112, 0.1);
+    height: calc(var(--px-in-vh) * 39);
+    border-radius: calc(var(--px-in-vh) * 12);
+    -webkit-text-stroke: calc(var(--px-in-vh) * 0.5);
+    -webkit-text-stroke-color: #868686;
+    border: 0.01vh solid transparent;
+    color: #ffffff1a;
+}
+
+.container-werbung-schalten:hover {
+    cursor: pointer;
+    background: rgba(85, 85, 85, 0.1);
+    -webkit-text-stroke: calc(var(--px-in-vh) * 0.5);
+    -webkit-text-stroke-color: var(--main-color);
+    color: var(--radio-icon-color-after);
+    border: 0.05vh solid var(--main-color);
+    background: linear-gradient(45deg, var(--radio-background-color) 0%, var(--box-werbung-schalten-color2) 100%);
+}
+
+#send-icon {
+    font-size: 1.2vh;
+    margin-left: 12.3vh;
+}
+
+.box-werbung-schalten {
+    position: absolute;
+    bottom: 6%;
+    width: calc(var(--px-in-vh) * 395);
+    display: flex;
+    align-items: center;
+    height: calc(var(--px-in-vh) * 39);
+    border-radius: calc(var(--px-in-vh) * 12);
+    border: 0.05vh solid transparent;
+    color: #acacac83;
+    -webkit-text-stroke: none;
+    -webkit-text-stroke-color: transparent;
+}
+
+.box-werbung-schalten:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.werbung-schalten {
+    position: absolute;
+    top: 40%;
+    font-size: 1.05vh;
+    right: 33%;
+}
+
+.container-lifeinvader-right {
+    position: absolute;
+    right: 0vh;
+    width: calc(var(--px-in-vh) * 375);
+    height: calc(var(--px-in-vh) * 586);
+    border-radius: calc(var(--px-in-vh) * 15);
+    background: var(--container-left-color);
+    border: 0.2vh solid transparent;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    border: 0.05vh solid var(--border-colors);
+}
+
+.lifeinvader2 {
+    position: absolute;
+    color: var(--main-color);
+    left: 10%;
+    top: 5%;
+    text-shadow: 0vh calc(var(--px-in-vh) * 4) calc(var(--px-in-vh) * 13) 0vh var(--main-color);
+    font-size: calc(var(--px-in-vh) * 20);
+}
+
+.letzte-werbung {
+    position: absolute;
+    text-transform: uppercase;
+    color: #fff;
+    left: 10%;
+    top: 8%;
+    font-size: calc(var(--px-in-vh) * 18);
+}
+
+.box-close {
+    position: absolute;
+    width: calc(var(--px-in-vh) * 31);
+    height: calc(var(--px-in-vh) * 31);
+    top: 3%;
+    right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: calc(var(--px-in-vh) * 5);
+    background: var(--box-close-background-color);
+    border: 0.01vh solid transparent;
+}
+
+.box-close:hover {
+    border: 0.01vh solid var(--main-color);
+    cursor: pointer;
+}
+
+#close-icon {
+    font-size: 1.4vh;
+    color: var(--radio-icon-color-after);
+    -webkit-text-stroke: 0.01vh;
+    -webkit-text-stroke-color: var(--main-color);
+}
+
+.container-letzte-werbungen-flex {
+    position: absolute;
+    top: 19%;
+    width: 29vh;
+    height: 38.5vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+
+.container-letzte-werbungen-flex::-webkit-scrollbar {
+    width: 0.3vh;
+    height: 0vh;
+    border-radius: calc(var(--px-in-vh) * 5);
+    background: rgba(217, 217, 217, 0.2);
+}
+
+.container-letzte-werbungen-flex::-webkit-scrollbar-thumb {
+    border-radius: calc(var(--px-in-vh) * 5);
+    background: var(--main-color);
+}
+
+.box-letzte-werbung {
+    position: relative;
+    width: calc(var(--px-in-vh) * 290);
+    display: flex;
+    justify-content: center;
+    border-radius: calc(var(--px-in-vh) * 15);
+    border: 0.1vh solid var(--border-colors);
+    background: var(--box-letzte-werbungen-color);
+}
+
+#lifeinvader {
+    position: absolute;
+    margin-top: 1.5vh;
+    left: 5.5%;
+    width: 2.4vh;
+}
+
+.lifeinvader3 {
+    position: absolute;
+    color: #fff;
+    font-size: calc(var(--px-in-vh) * 12);
+    margin-top: 1.5vh;
+    left: 18.5%;
+}
+
+.last {
+    position: absolute;
+    font-family: 'Montserrat-SemiBold';
+    color: rgba(255, 255, 255, 0.3);
+    font-size: calc(var(--px-in-vh) * 8);
+    margin-top: 2.8vh;
+    left: 18.5%;
+}
+
+.box-anrufen {
+    position: absolute;
+    right: 5.5%;
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(var(--px-in-vh) * 59);
+    height: calc(var(--px-in-vh) * 19);
+    border-radius: calc(var(--px-in-vh) * 5);
+    background: var(--box-anrufen-color);
+}
+
+.box-anrufen:hover {
+    cursor: pointer;
+    background: var(--border-colors);
+}
+
+.anrufen {
+    color: #fff;
+    font-size: 0.7vh;
+    font-family: 'Montserrat-SemiBold';
+}
+
+.container-infos {
+    position: absolute;
+    width: 24vh;
+    height: 2.1vh;
+    margin-top: 6vh;
+    display: flex;
+    justify-content: end;
+}
+
+.number {
+    position: absolute;
+    color: #7a6c6c;
+    left: 0%;
+    font-size: calc(var(--px-in-vh) * 9);
+}
+
+.name {
+    position: absolute;
+    color: #7a6c6c;
+    left: 0%;
+    bottom: 0%;
+    font-size: calc(var(--px-in-vh) * 9);
+}
+
+.number-text {
+    position: absolute;
+    color: #7a6c6c;
+    right: 0%;
+    text-align: right;
+    font-size: calc(var(--px-in-vh) * 9);
+}
+
+.name-text {
+    position: absolute;
+    color: #7a6c6c;
+    right: 0%;
+    bottom: 0%;
+    text-align: right;
+    font-size: calc(var(--px-in-vh) * 9);
+}
+
+.text {
+    color: #fff;
+    font-size: calc(var(--px-in-vh) * 10);
+    margin-top: 8.5vh;
+    margin-bottom: 1vh;
+    margin-left: 1.5vh;
+    text-align: left;
+    max-width: 94%;
+}
+
+#logo3 {
+    position: absolute;
+    width: 23vh;
+    right: -25%;
+    opacity: 0.1;
+    top: -15%;
+    object-fit: contain;
+    transform: rotate(-45deg);
+}

@@ -1,0 +1,166 @@
+/* @media (min-height: 1080px) { */
+#drive {
+    height: 310px;
+    width: 521px;
+    position: absolute;
+    background-image: url('../img/drive.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#drive .title {
+    top: 12px
+}
+
+#drive .left {
+    left: 28px;
+}
+
+#drive .right {
+    right: 29px;
+}
+
+#drive img {
+    height: 180px;
+    position: absolute;
+    left: 28px;
+    top: 90px;
+}
+
+#dr_nameDiv {
+    top: 55px;
+}
+
+#dr_firstnameDiv {
+    top: 90px;
+}
+
+#dr_dobDiv {
+    top: 125px;
+}
+
+#dr_idDiv {
+    top: 160px;
+}
+
+#dr_signDiv {
+    top: 230px;
+}
+
+#drive .sign {
+    width: 12vw;
+}
+
+#dr_classesDiv {
+    top: 55px;
+    line-height: 19px;
+}
+/* } */
+
+@media (min-height: 1440px) {
+    #drive {
+        height: 420px;
+        width: 700px;
+    }
+    
+    #drive .title {
+        top: 25px
+    }
+    
+    #drive .left {
+        left: 38px;
+    }
+    
+    #drive .right {
+        right: 40px;
+    }
+    
+    #drive img {
+        height: 250px;
+        left: 38px;
+        top: 120px;
+    }
+    
+    #dr_nameDiv {
+        top: 100px;
+    }
+    
+    #dr_firstnameDiv {
+        top: 145px;
+    }
+    
+    #dr_dobDiv {
+        top: 190px;
+    }
+    
+    #dr_idDiv {
+        top: 235px;
+    }
+    
+    #dr_signDiv {
+        top: 300px;
+    }
+    
+    #drive .sign {
+        width: 320px;
+    }
+    
+    #dr_classesDiv {
+        top: 100px;
+        line-height: 25px;
+    }
+}
+
+@media (min-height: 2160px) {
+    #drive {
+        height: 625px;
+        width: 1050px;
+    }
+    
+    #drive .title {
+        top: 33px
+    }
+    
+    #drive .left {
+        left: 57px;
+    }
+    
+    #drive .right {
+        right: 60px;
+    }
+    
+    #drive img {
+        height: 375px;
+        left: 57px;
+        top: 180px;
+    }
+    
+    #dr_nameDiv {
+        top: 150px;
+    }
+    
+    #dr_firstnameDiv {
+        top: 213px;
+    }
+    
+    #dr_dobDiv {
+        top: 275px;
+    }
+    
+    #dr_idDiv {
+        top: 339px;
+    }
+    
+    #dr_signDiv {
+        top: 450px;
+    }
+    
+    #drive .sign {
+        width: 480px;
+    }
+    
+    #dr_classesDiv {
+        top: 150px;
+        line-height: 37px;
+    }
+}

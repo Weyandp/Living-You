@@ -1,0 +1,88 @@
+{
+	"idcard": {
+		"title": "State of San Andreas",
+		"subtitle": "San Andreas Republic",
+		"rightTitle": "ID Card",
+		"rightSubtitle": "Los Santos",
+		"nameInfo": "Surname",
+		"firstnameInfo": "Prename",
+		"addressInfo": "Address",
+		"sexInfo": "Sex",
+		"dobInfo": "Date of Birth",
+		"idInfo": "Card No.",
+		"doiInfo": "Issued On",
+		"signInfo": "Sign"
+	},
+	"drive": {
+		"title": "State of San Andreas",
+		"rightTitle": "Driving License",
+		"nameInfo": "Surname",
+		"firstnameInfo": "Prename",
+		"dobInfo": "Date of Birth",
+		"idInfo": "Card No.",
+		"signInfo": "Sign",
+		"classesInfo": "Allowed classes"
+	},
+	"hunting": {
+		"title": "Hunting",
+		"subtitle": "State of San Andreas",
+		"nameInfo": "Name",
+		"addressInfo": "Address",
+		"dobInfo": "Date of Birth",
+		"stampInfo": "Stamp"
+	},
+	"fly": {
+		"title": "Aircraft License",
+		"subtitle": "State of San Andreas",
+		"idInfo": "Card No."
+	},
+	"boat": {
+		"title": "SAN ANDREAS",
+		"title2": "BOATLICENSE",
+		"licenseNoinfo": "LICENSE No."
+	},
+	"md": {
+		"title": "Los <br> Santos",
+		"subtitle": "Medical <br> Department",
+		"nameInfo": "Name",
+		"rankInfo": "Position"
+	},
+	"pd": {
+		"title": "LOS SANTOS",
+		"subtitle": "POLICE DEPARTMENT",
+		"nameInfo": "NAME",
+		"rankInfo": "POSITION",
+		"subtitle2": "LOS SANTOS PD"
+	},
+	"weapon": {
+		"title": "WEAPON LICENSE",
+		"subtitle": "STATE OF SAN ANDREAS"
+	},
+	"lawyer": {
+		"title": "Courts of San Andreas",
+		"rightTitle": "Lawyers License",
+		"nameInfo": "Name:",
+		"addressInfo": "Address:",
+		"signJudge": "Steven J Bush",
+		"signInfoJudge": "The Lawyers Association",
+		"signInfo": "Owner of the license",
+		"text": "The owner of this license is duly admitted to practise as an Attorney and Counselor at Courts"
+	},
+	"menu": {
+		"documents": "DOCUMENTS",
+		"documentsSubtitle": "View your own documents or show them to others",
+		"myDocuments": "My Documents",
+		"savedDocuments": "Saved Documents",
+		"subtitle": "click to view",
+		"show": "Show",
+		"delete": "Delete",
+		"openLicenseMenu": "Give licenses"
+	},
+	"giveLicenseMenu": {
+		"title": "LICENSES",
+		"giveTo": "Give/Remove licenses to/from NAMEPLACEHOLDER",
+		"accept": "Accept",
+		"abort": "Abort",
+		"assign": "click to assign"
+	}
+}

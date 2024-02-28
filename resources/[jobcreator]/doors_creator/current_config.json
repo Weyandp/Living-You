@@ -1,0 +1,1 @@
+{"shared":{"locale":"de"},"client":{"doorLockAnimation":{"duration":1000,"dict":"anim@heists@keycard@","isEnabled":true,"name":"enter"},"use3dTextInsteadOfIcon":false,"doorLockIconSize":1},"server":{"acePermission":"doors_creator","lockpickName":"doors_lockpick","lockpickMinimumQuantity":1,"lockpickLoseOnUse":true,"saveDoorStateAfterRestart":false,"lockpickMinimumPolice":0}}

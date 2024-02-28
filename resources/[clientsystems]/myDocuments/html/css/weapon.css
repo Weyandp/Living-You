@@ -1,0 +1,125 @@
+#weapon {
+    height: 310px;
+    width: 521px;
+    position: absolute;
+    background-image: url('../img/weapon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#we_title {
+    font-size: 22.5px;
+    top: 20px;
+    font-weight: bold;
+}
+
+#we_subtitle {
+    top: 265px;
+    font-size: 22.5px;
+    font-weight: bold;
+    width: 100%;
+}
+
+#we_name {
+    top: 80px;
+}
+
+#we_sexImg {
+    left: 25px;
+    bottom: 80px;
+    height: 150px;
+}
+
+#weapon .value {
+    color: #323237;
+    font-size: 16px;
+}
+
+#weapon .middleRow {
+    left: 175px;
+}
+
+#we_content {
+    top: 85px;
+    width: 175px;
+}
+
+@media (min-height: 1440px) { 
+    #weapon {
+        height: 420px;
+        width: 700px;
+    }
+    
+    #we_title {
+        font-size: 30px;
+        top: 27px;
+    }
+    
+    #we_subtitle {
+        top: 350px;
+        font-size: 30px;
+    }
+    
+    #we_name {
+        top: 106px;
+    }
+    
+    #we_sexImg {
+        left: 44px;
+        bottom: 120px;
+        height: 200px;
+    }
+    
+    #weapon .value {
+        font-size: 21px;
+    }
+    
+    #weapon .middleRow {
+        left: 233px;
+    }
+    
+    #we_content {
+        top: 113px;
+        width: 233px;
+    }
+} /* * 1,33 */
+
+@media (min-height: 2160px) { 
+    #weapon {
+        height: 625px;
+        width: 1050px;
+    }
+    
+    #we_title {
+        font-size: 45px;
+        top: 31px;
+    }
+    
+    #we_subtitle {
+        top: 525px;
+        font-size: 45px;
+    }
+    
+    #we_name {
+        top: 159px;
+    }
+    
+    #we_sexImg {
+        left: 66px;
+        bottom: 180px;
+        height: 300px;
+    }
+    
+    #weapon .value {
+        font-size: 31px;
+    }
+    
+    #weapon .middleRow {
+        left: 345px;
+    }
+    
+    #we_content {
+        top: 158px;
+        width: 348px;
+    }
+} /* * 1,5 */

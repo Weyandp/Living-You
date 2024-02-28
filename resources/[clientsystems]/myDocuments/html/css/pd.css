@@ -1,0 +1,209 @@
+#pd {
+    height: 310px;
+    width: 521px;
+    position: absolute;
+    background-image: url('../img/pd.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#pd_sexImg {
+    left: 20px;
+    bottom: 45px;
+    height: 175px;
+}
+
+#pd_logo {
+    height: 100px;
+    left: 380px;
+    top: 20px;
+}
+
+#pd_logoBk {
+    opacity: 0.3;
+    z-index: -99;
+    left: 50%;
+    top: 56%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+}
+
+#pd_titleDiv {
+    top: 5px;
+    left: 85px;
+    color: rgb(238, 238, 238);
+}
+
+#pd_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#pd_subtitle {
+    font-size: 14.5px;
+    font-weight: bold;
+}
+
+#pd .info {
+    color: #434B6D;
+}
+
+#pd .value {
+    color: #0F1633;
+    font-size: 15px;
+}
+
+#pd_nameDiv {
+    top: 110px;
+}
+
+#pd_rankDiv {
+    top: 150px;
+}
+
+#pd .middleRow {
+    left: 160px;
+}
+
+#pd_sign {
+    top: 190px;
+    width: 220px;
+}
+
+#pd_subtitle2 {
+    color: #5F6580;
+    top: 160px;
+    font-size: 14px;
+    left: 375px;
+    width: 130px;
+}
+
+@media (min-height: 1440px) { 
+    #pd {
+        height: 420px;
+        width: 700px;
+    }
+    
+    #pd_sexImg {
+        left: 26px;
+        bottom: 60px;
+        height: 232px;
+    }
+    
+    #pd_logo {
+        height: 130px;
+        left: 513px;
+        top: 26px;
+    }
+    
+    #pd_logoBk {
+        height: 266px;
+    }
+    
+    #pd_titleDiv {
+        top: 10px;
+        left: 113px;
+    }
+    
+    #pd_title {
+        font-size: 32px;
+    }
+    
+    #pd_subtitle {
+        font-size: 19.2px;
+    }
+
+    
+    #pd .value {
+        font-size: 20px;
+    }
+    
+    #pd_nameDiv {
+        top: 146px;
+    }
+    
+    #pd_rankDiv {
+        top: 200px;
+    }
+    
+    #pd .middleRow {
+        left: 212px;
+    }
+    
+    #pd_sign {
+        top: 254px;
+        width: 293px;
+    }
+    
+    #pd_subtitle2 {
+        top: 213px;
+        font-size: 19px;
+        left: 505px;
+        width: 173px;
+    }
+} /* * 1,33 */
+
+@media (min-height: 2160px) { 
+    #pd {
+        height: 625px;
+        width: 1050px;
+    }
+    
+    #pd_sexImg {
+        left: 39px;
+        bottom: 90px;
+        height: 348px;
+    }
+    
+    #pd_logo {
+        height: 205px;
+        left: 765px;
+        top: 39px;
+    }
+    
+    #pd_logoBk {
+        height: 399px;
+    }
+    
+    #pd_titleDiv {
+        top: 15px;
+        left: 170px;
+    }
+    
+    #pd_title {
+        font-size: 48px;
+    }
+    
+    #pd_subtitle {
+        font-size: 28.8px;
+    }
+
+    
+    #pd .value {
+        font-size: 30px;
+    }
+    
+    #pd_nameDiv {
+        top: 219px;
+    }
+    
+    #pd_rankDiv {
+        top: 300px;
+    }
+    
+    #pd .middleRow {
+        left: 318px;
+    }
+    
+    #pd_sign {
+        top: 381px;
+        width: 440px;
+    }
+    
+    #pd_subtitle2 {
+        top: 320px;
+        font-size: 28px;
+        left: 757px;
+        width: 260px;
+    }
+} /* * 1,5 */

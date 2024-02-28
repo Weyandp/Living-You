@@ -1,0 +1,144 @@
+#fly {
+    height: 310px;
+    width: 521px;
+    position: absolute;
+    background-image: url('../img/fly.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#fl_titleDiv {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 115px;
+    width: 500px;
+}
+
+#fly .title {
+    top: 0px;
+    font-size: 30px;
+}
+
+#fly .subtitle {
+    top: 0px;
+    font-size: 15px;
+}
+
+#fly .left {
+    left: 10px;
+}
+
+#fl_name, #fl_id {
+    top: 157px;
+    width: 240px;
+    /* background-color: antiquewhite; */
+}
+
+#fl_id {  
+    top: 165px;
+    right: 0;
+}
+
+/* #fl_dob {
+    top: 190px;
+} */
+
+#fl_dob, #fl_id  {
+    font-size: 17px;
+}
+
+#fl_sign {
+    top: 200px;
+    width: 500px;
+    /* background-color: aliceblue; */
+}
+
+@media (min-height: 1440px) {
+    #fly {
+        height: 475px;
+        width: 700px;
+    }
+    
+    #fl_titleDiv {
+        top: 154px;
+        width: 666px;
+    }
+    
+    #fly .title {
+        top: 0px;
+        font-size: 40px;
+    }
+    
+    #fly .subtitle {
+        top: 0px;
+        font-size: 20px;
+    }
+    
+    #fly .left {
+        left: 14px;
+    }
+    
+    #fl_name, #fl_id {
+        top: 210px;
+        width: 320px;
+    }
+    
+    #fl_id {  
+        top: 220px;
+        right: 0;
+    }
+    
+    #fl_dob, #fl_id  {
+        font-size: 23px;
+    }
+    
+    #fl_sign {
+        top: 266px;
+        width: 666px;
+    }
+}
+
+@media (min-height: 2160px) { 
+    #fly {
+        height: 712px;
+        width: 1050px;
+    }
+    
+    #fl_titleDiv {
+        top: 231px;
+        width: 1000px;
+    }
+    
+    #fly .title {
+        top: 0px;
+        font-size: 60px;
+    }
+    
+    #fly .subtitle {
+        top: 0px;
+        font-size: 30px;
+    }
+    
+    #fly .left {
+        left: 21px;
+    }
+    
+    #fl_name, #fl_id {
+        top: 315px;
+        width: 480px;
+    }
+    
+    #fl_id {  
+        top: 330px;
+        right: 0;
+    }
+    
+    #fl_dob, #fl_id  {
+        font-size: 35px;
+    }
+    
+    #fl_sign {
+        top: 399px;
+        width: 1000px;
+    }
+}

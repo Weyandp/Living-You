@@ -1,0 +1,10 @@
+F:\saltychat-fivem-master\saltychat\SaltyClient\bin\Debug\SaltyClient.net.dll
+F:\saltychat-fivem-master\saltychat\SaltyClient\bin\Debug\SaltyClient.net.pdb
+F:\saltychat-fivem-master\saltychat\SaltyClient\bin\Debug\CitizenFX.Core.Client.dll
+F:\saltychat-fivem-master\saltychat\SaltyClient\bin\Debug\Newtonsoft.Json.dll
+F:\saltychat-fivem-master\saltychat\SaltyClient\bin\Debug\CitizenFX.Core.Client.xml
+F:\saltychat-fivem-master\saltychat\SaltyClient\obj\Debug\SaltyClient.csproj.AssemblyReference.cache
+F:\saltychat-fivem-master\saltychat\SaltyClient\obj\Debug\SaltyClient.csproj.CoreCompileInputs.cache
+F:\saltychat-fivem-master\saltychat\SaltyClient\obj\Debug\SaltyClient.csproj.CopyComplete
+F:\saltychat-fivem-master\saltychat\SaltyClient\obj\Debug\SaltyClient.net.dll
+F:\saltychat-fivem-master\saltychat\SaltyClient\obj\Debug\SaltyClient.net.pdb

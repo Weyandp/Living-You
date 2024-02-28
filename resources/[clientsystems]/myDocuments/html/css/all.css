@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "madeTommyMedium";
+    src: url("../webfonts/madeTommyMedium.woff") format('woff');
+}
+
+@font-face {
+    font-family: "madeTommyRegular";
+    src: url("../webfonts/madeTommyRegular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "signature";
+    src: url("../webfonts/signature.woff") format('woff');
+}
+
+@font-face {
+    font-family: "thedus";
+    src: url("../webfonts/thedus.woff") format('woff');
+}
+
+@font-face {
+    font-family: "hamburgHand";
+    src: url("../webfonts/hamburgHand.woff") format('woff');
+}
+
+@font-face {
+    font-family: "keepCalm";
+    src: url("../webfonts/keepCalm.woff") format('woff');
+}
+
+* {
+    user-select: none;
+    user-zoom: none;
+    font-size: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.left {
+    left: 3vw;
+}
+
+.right {
+    right: 3vw;
+}
+
+.top {
+    top: 3vh;
+}
+
+.bottom {
+    bottom: 3vh;
+}
+
+.center {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.middle {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.madeTommy_medium {
+    font-family: "madeTommyMedium";
+}
+
+.madeTommy_regular {
+    font-family: "madeTommyRegular";
+}
+
+.signature {
+    font-family: "signature";
+}
+
+.thedus {
+    font-family: "thedus";
+}
+
+.hamburgHand {
+    font-family: "hamburgHand";
+}
+
+.timesNew {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.zeroMargin {
+    margin: 0;
+}
+
+.keepCalm {
+    font-family: "keepCalm";
+}
+
+.absolute {
+    color: black;
+    position: absolute;
+}
+
+.blue {
+    color: #4092CF;
+}
+
+.grey {
+    color: #5D676B;
+}
+
+.darkGrey {
+    color: #484850;
+}
+
+.white {
+    color: white;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.rightText {
+    text-align: right;
+}
+
+.justifyText {
+    text-align: justify;
+}
+
+.zIndex { 
+    z-index: 50;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* @media (min-height: 1080px) {  */
+.title {
+    font-size: 16px;
+    top: 18px;
+}
+
+.subtitle {
+    font-size: 12px;
+    top: 45px;
+}
+
+.smallLine {
+    line-height: 17px;
+}
+
+.info {
+    font-size: 12px;
+    /* margin-bottom: 2vh; */
+}
+
+.middleRow {
+    left: 220px;
+}
+
+.value {
+    font-size: 22px;
+}
+
+.sign {
+    margin-top: 0;
+    font-size: 50px;
+    text-align: center;
+    width: 290px;
+}
+
+.secRow {
+    left: 380px;
+}
+/* } */
+
+@media (min-height: 1440px) {
+    * {
+        font-size: 15px;
+    }
+
+    .title {
+        font-size: 19px;
+        top: 33px;
+    }
+    
+    .subtitle {
+        font-size: 14px;
+        top: 60px;
+    }
+    
+    .smallLine {
+        line-height: 19px;
+    }
+    
+    .info {
+        font-size: 15px;
+    }
+    
+    .middleRow {
+        left: 275px;
+    }
+    
+    .value {
+        font-size: 30px;
+    }
+    
+    .sign {
+        margin-top: 0;
+        font-size: 60px;
+        text-align: center;
+        width: 400px;
+    }
+    
+    .secRow {
+        left: 500px;
+    }
+}
+
+@media (min-height: 2160px) {
+    * {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 28px;
+        top: 45px;
+    }
+    
+    .subtitle {
+        font-size: 21px;
+        top: 90px;
+    }
+    
+    .smallLine {
+        line-height: 27px;
+    }
+    
+    .info {
+        font-size: 22px;
+        /* margin-bottom: 2vh; */
+    }
+    
+    .middleRow {
+        left: 412px;
+    }
+    
+    .value {
+        font-size: 45px;
+    }
+    
+    .sign {
+        margin-top: 0;
+        font-size: 90px;
+        text-align: center;
+        width: 600px;
+    }
+    
+    .secRow {
+        left: 750px;
+    }
+}
+
+@media (min-height: 1080px) { }
+
+@media (min-height: 1440px) { } /* * 1,33 */
+
+@media (min-height: 2160px) { } /* * 1,5 */

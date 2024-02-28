@@ -1,0 +1,129 @@
+#businessCard {
+    height: 310px;
+    width: 521px;
+
+    position: absolute;
+    background-image: url('../img/bu_male.png');
+    background-repeat: no-repeat;
+    background-size: contain;   
+}
+
+#businessCard .left {
+    left: 25px
+}
+
+#businessCard .middleRow {
+    left: 85px
+}
+
+#businessCard .value {
+    font-size: 18px;
+}
+
+#bu_name {
+    top: 35px;
+    font-size: 25px;
+}
+
+#bu_job {
+    top: 60px;
+    font-size: 20px;
+}
+
+#bu_number {
+    top: 140px
+}
+
+#bu_mail {
+    top: 188px;
+}
+
+#bu_address {
+    top: 235px;
+    width: 380px;
+}
+
+@media (min-height: 1440px) { 
+    #businessCard {
+        height: 420px;
+        width: 700px;
+    }
+    
+    #businessCard .left {
+        left: 33px
+    }
+    
+    #businessCard .middleRow {
+        left: 113px
+    }
+    
+    #businessCard .value {
+        font-size: 24px;
+    }
+    
+    #bu_name {
+        top: 47px;
+        font-size: 33px;
+    }
+    
+    #bu_job {
+        top: 80px;
+        font-size: 27px;
+    }
+    
+    #bu_number {
+        top: 186px
+    }
+    
+    #bu_mail {
+        top: 250px;
+    }
+    
+    #bu_address {
+        top: 313px;
+        width: 507px;
+    }
+    
+} /* * 1,33 */
+
+@media (min-height: 2160px) { 
+    #businessCard {
+        height: 625px;
+        width: 1050px;
+    }
+    
+    #businessCard .left {
+        left: 48px
+    }
+    
+    #businessCard .middleRow {
+        left: 168px
+    }
+    
+    #businessCard .value {
+        font-size: 36px;
+    }
+    
+    #bu_name {
+        top: 71px;
+        font-size: 48px;
+    }
+    
+    #bu_job {
+        top: 120px;
+        font-size: 40px;
+    }
+    
+    #bu_number {
+        top: 279px
+    }
+    
+    #bu_mail {
+        top: 375px;
+    }
+    
+    #bu_address {
+        top: 469px;
+        width: 760px;
+    }
+} /* * 1,5 */

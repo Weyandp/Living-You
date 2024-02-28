@@ -1,0 +1,141 @@
+#boat {
+    height: 310px;
+    width: 521px;
+    position: absolute;
+    background-image: url('../img/boat.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: aliceblue; */
+}
+
+#boat .title {
+    top: 25px;
+    font-size: 20px;
+}
+
+#boat .left {
+    left: 30px;
+}
+
+#boat .right {
+    right: 25px;
+}
+
+#boat .value {
+    font-size: 17px;
+}
+
+#boat img {
+    height: 180px;
+    position: absolute;
+    left: 50px;
+    top: 90px;
+}
+
+#bo_nameDiv {
+    letter-spacing: 1px;
+    top: 100px;
+}
+
+#bo_licenseNoDiv {
+    top: 75px;
+    letter-spacing: 1px;
+}
+
+#bo_sign {
+    bottom: 35px;
+    max-width: 300px;
+    left: 190px;
+}
+
+@media (min-height: 1440px) { 
+    #boat {
+        height: 420px;
+        width: 700px;
+    }
+    
+    #boat .title {
+        top: 34px;
+        font-size: 26px;
+    }
+    
+    #boat .left {
+        left: 40px;
+    }
+    
+    #boat .right {
+        right: 34px;
+    }
+    
+    #boat .value {
+        font-size: 26px;
+    }
+    
+    #boat img {
+        height: 240px;
+        left: 67px;
+        top: 120px;
+    }
+    
+    #bo_nameDiv {
+        letter-spacing: 1px;
+        top: 134px;
+    }
+    
+    #bo_licenseNoDiv {
+        top: 95px;
+        letter-spacing: 1px;
+    }
+    
+    #bo_sign {
+        bottom: 40px;
+        max-width: 400px;
+        left: 252px;
+    }
+} /* * 1,33 */
+
+@media (min-height: 2160px) { 
+    #boat {
+        height: 625px;
+        width: 1050px;
+    }
+    
+    #boat .title {
+        top: 51px;
+        font-size: 39px;
+    }
+    
+    #boat .left {
+        left: 60px;
+    }
+    
+    #boat .right {
+        right: 51px;
+    }
+    
+    #boat .value {
+        font-size: 39px;
+    }
+    
+    #boat img {
+        height: 360px;
+        left: 100px;
+        top: 180px;
+    }
+    
+    #bo_nameDiv {
+        letter-spacing: 2px;
+        top: 200px;
+    }
+    
+    #bo_licenseNoDiv {
+        top: 142px;
+        letter-spacing: 2px;
+    }
+    
+    #bo_sign {
+        bottom: 60px;
+        max-width: 600px;
+        left: 378px;
+    }
+} /* * 1,5 */ 

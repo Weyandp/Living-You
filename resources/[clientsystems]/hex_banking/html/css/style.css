@@ -1,0 +1,625 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+:root {
+    --clr-custom-primary: #ff7800;
+    --clr-custom-primary-2: #ff7800;
+    --clr-custom-primary-3: #ff7800;
+    --clr-custom-primary-4: #ff7800;
+    --clr-custom-secondary: #ff7800;
+    --clr-custom-thirdly: #ff7800;
+    --clkr-custom-4th: #ff7800;
+
+    --gr-btn-bank: radial-gradient(117.86% 117.86% at 50% 0%, #ff7800 0%, rgba(255, 123, 66, 0) 100%);
+    --gr-btn-cash: radial-gradient(117.86% 117.86% at 50% 0%, #ff7800 0%, rgba(126, 66, 255, 0) 100%);
+
+    --clr-white: rgba(255, 255, 255, 1);
+
+    --ff-custom: 'Gilroy', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    font-size: 1.2vh;
+    font-family: var(--ff-custom);
+    color: var(--clr-white);
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.main__hex-container {
+    position: absolute;
+    top: 0vh;
+    left: 0vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main__hex-banking-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vh;
+    height: 78vh;
+    background: rgba(7, 7, 7, 0.93);
+    padding: 5vh;
+}
+
+.main__hex-banking-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__hex-banking-header-left-container {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.main__hex-banking-header-left-big {
+    font-size: 2.4vh;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--clr-white);
+}
+
+.main__hex-banking-header-left-small {
+    font-size: 1.1vh;
+    font-weight: 400;
+    color: var(--clr-white);
+    text-transform: uppercase;
+    padding: 1vh;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    background: radial-gradient(50% 293.07% at 50% 50%, var(--clr-custom-primary) 0%, var(--clr-custom-primary-2) 100%);
+    border-radius: .2vh;
+    box-shadow: 0vh 1.1vh 2.2vh -.3vh var(--clr-custom-primary-2);
+}
+
+.main__hex-banking-header-right-close {
+    width: 2.1vh;
+    height: 2.1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .1vh solid rgba(255, 255, 255, .25);
+    font-size: 1.5vh;
+    cursor: pointer;
+    color: var(--clr-white);
+    transition: .2s ease-in;
+}
+
+.main__hex-banking-header-right-close:hover {
+    color: var(--clr-custom-primary);
+    border: .1vh solid var(--clr-custom-primary);
+    box-shadow: 0vh 0vh 1.7vh var(--clr-custom-primary-2);
+}
+
+.main__hex-banking-header-right-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1vh;
+}
+
+.main__hex-banking-header-right-personal {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.main__hex-banking-header-right-personal-left {
+    text-align: right;
+    font-size: 1.3vh;
+}
+
+.main__hex-banking-header-right-personal-left p:nth-last-child(1) {
+    color: var(--clr-custom-primary);
+}
+
+.main__hex-banking-header-right-personal-right {
+    width: 3.5vh;
+    height: 3.5vh;
+    border: .1vh solid var(--clr-custom-primary);
+    box-shadow: 0vh 0vh 1.7vh var(--clr-custom-primary-2);
+}
+
+.main__hex-banking-header-right-personal-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.main__hex-banking-top-grid {
+    width: 100%;
+    height: 50vh;
+    margin-top: 2vh;
+    display: grid;
+    grid-template-columns: .6fr 1fr;
+    gap: 1.5vh;
+}
+
+.main__hex-banking-top-grid-left-container,
+.main__hex-banking-top-grid-right-container {
+    width: 100%;
+    height: 100%;
+}
+
+.main__hex-banking-top-grid-left-card-bg-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0vh;
+    left: 0vh;
+    z-index: -1;
+}
+
+.main__hex-banking-top-grid-left-card-container {
+    position: relative;
+    width: 100%;
+    height: 22vh;
+    background: #ff7800;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.main__hex-banking-top-grid-left-car-bg-sphere-1 {
+    position: absolute;
+    width: 50vh;
+    height: 50vh;
+    top: -2.5vh;
+    left: 10vh;
+    border-radius: 50%;
+    background: linear-gradient(124.11deg, rgba(0, 0, 0, 0.2) 13.72%, rgba(0, 0, 0, 0) 19.22%);
+}
+
+.main__hex-banking-top-grid-left-car-bg-sphere-2 {
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    top: -15vh;
+    left: -15vh;
+    border-radius: 50%;
+    background: var(--clr-custom-secondary);
+    filter: blur(7vh);
+}
+
+.main__hex-banking-top-grid-left-car-bg-sphere-3 {
+    position: absolute;
+    width: 30vh;
+    height: 30vh;
+    bottom: -15vh;
+    right: -15vh;
+    border-radius: 50%;
+    background: var(--clr-custom-secondary);
+    filter: blur(7vh);
+}
+
+.main__hex-banking-top-grid-left-car-header {
+    position: absolute;
+    top: 1.5vh;
+    left: 1.5vh;
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.main__hex-banking-top-grid-left-card-header-left {
+    font-size: 2.75vh;
+}
+
+.main__hex-banking-top-grid-left-card-header-right {
+    text-transform: uppercase;
+    font-size: 1.5vh;
+    font-weight: 600;
+}
+
+.main__hex-banking-top-grid-left-card-header-right p:nth-last-child(1) {
+    margin-top: -.25vh;
+}
+
+.main__hex-banking-top-grid-left-card-iban-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+}
+
+.main__hex-banking-top-grid-left-card-iban-text {
+    font-size: 1.75vh;
+    font-weight: 600;
+    letter-spacing: .6vh;
+}
+
+.main__hex-banking-top-grid-left-card-bottom-information-container {
+    position: absolute;
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__hex-banking-top-grid-left-card-bottom-information-text {
+    font-size: 1.75vh;
+    font-weight: 500;
+}
+
+.main__hex-banking-top-grid-left-card-img-top {
+    position: absolute;
+    top: 1.5vh;
+    right: 1.5vh;
+}
+
+.main__hex-banking-top-grid-left-card-img-top img {
+    width: 4.5vh;
+}
+
+.main__hex-banking-top-grid-right-btn-container {
+    width: 100%;
+    height: 22vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vh;
+}
+
+.main__hex-banking-top-grid-right-btn-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: .1vh solid rgba(255, 255, 255, .15);
+    overflow: hidden;
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.main__hex-banking-top-grid-right-btn-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6.5vh;
+    color: var(--clr-custom-primary);
+    transition: .2s ease-in;
+}
+
+.main__hex-banking-top-grid-right-btn-item-header {
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
+    font-size: 1.4vh;
+    font-weight: 400;
+    text-shadow: 0vh 0vh 1.7vh var(--clr-white);
+}
+
+.main__hex-banking-top-grid-right-btn-item-square {
+    position: absolute;
+    bottom: -.7vh;
+    right: 1.5vh;
+    width: 1.3vh;
+    height: 1.3vh;
+    background: var(--clr-custom-primary);
+    box-shadow: 0vh 0vh 1.7vh var(--clr-custom-primary);
+    transform: rotate(45deg);
+    transition: .2s ease-in;
+}
+
+.main__hex-banking-top-grid-right-btn-bg {
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    top: -20vh;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    background: rgba(255, 255, 255, 0.02);
+    border: .2vh solid;
+    border-image-source: radial-gradient(60.73% 60.73% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    border-image-slice: 1;
+    transition: .2s ease-in;
+}
+
+.main__hex-banking-top-grid-right-btn-bg-2 {
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    top: -10vh;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    background: rgba(255, 255, 255, 0.02);
+    border: .2vh solid;
+    border-image-source: radial-gradient(60.73% 60.73% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    border-image-slice: 1;
+    transition: .2s ease-in;
+}
+
+.main__hex-banking-top-grid-right-btn-item:hover .main__hex-banking-top-grid-right-btn-icon,
+.main__hex-banking-top-grid-right-btn-item.active .main__hex-banking-top-grid-right-btn-icon {
+    text-shadow: 0vh 0vh 1.7vh var(--clr-custom-primary-2);
+}
+
+.main__hex-banking-top-grid-right-btn-item:hover .main__hex-banking-top-grid-right-btn-bg,
+.main__hex-banking-top-grid-right-btn-item.active .main__hex-banking-top-grid-right-btn-bg {
+    transform: translateX(-50%) rotate(45deg) scale(1.75);
+}
+
+.main__hex-banking-top-grid-right-btn-item:hover .main__hex-banking-top-grid-right-btn-bg-2,
+.main__hex-banking-top-grid-right-btn-item.active .main__hex-banking-top-grid-right-btn-bg-2 {
+    transform: translateX(-50%) rotate(45deg) scale(1.25);
+}
+
+.main__hex-banking-top-grid-right-btn-item:hover .main__hex-banking-top-grid-right-btn-item-square,
+.main__hex-banking-top-grid-right-btn-item.active .main__hex-banking-top-grid-right-btn-item-square {
+    transform: rotate(45deg) scale(2);
+}
+
+.main__hex-banking-top-grid-left-scroll-container {
+    width: 100%;
+    height: 27vh;
+    margin-top: 1vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .35vh;
+    align-content: flex-start;
+}
+
+.main__hex-banking-top-grid-left-scroll-container::-webkit-scrollbar {
+    width: .3vh;
+}
+
+.main__hex-banking-top-grid-left-scroll-container::-webkit-scrollbar-track {
+    width: .3vh;
+    background: rgba(255, 255, 255, .15);
+}
+
+.main__hex-banking-top-grid-left-scroll-container::-webkit-scrollbar-thumb {
+    width: .3vh;
+    background: var(--clr-custom-primary);
+}
+
+.main__hex-banking-top-grid-left-scroll-item {
+    width: 98%;
+    position: relative;
+    height: 4.2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: .1vh solid;
+    border-image-source: radial-gradient(129.76% 146.68% at 50% 50%, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-image-slice: 1;
+    padding-left: .8vh;
+    padding-right: .8vh;
+    overflow: hidden;
+}
+
+.main__hex-banking-top-grid-left-scroll-item-left-container {
+    width: 15vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.main__hex-banking-top-grid-left-scroll-item-left-container.withdraw p,
+.main__hex-banking-top-grid-left-scroll-item-left-container.transfer p {
+    padding: .5vh;
+    color: var(--clr-custom-primary);
+    background: #ff7800;
+    text-shadow: 0vh 0vh 1.7vh var(--clr-custom-primary);
+}
+
+.main__hex-banking-top-grid-left-scroll-item-left-container.deposit p,
+.main__hex-banking-top-grid-left-scroll-item-left-container.transfergot p {
+    padding: .5vh;
+    color: var(--clr-custom-thirdly);
+    text-shadow: 0vh 0vh 1.7vh var(--clr-custom-thirdly);
+    background: rgba(66, 255, 107, 0.12);
+}
+
+.main__hex-banking-top-grid-left-scroll-item-middle-container {
+    text-shadow: 0vh 0vh 1.7vh var(--clr-white);
+}
+
+.main__hex-banking-top-grid-left-scroll-item-right-container {
+    color: var(--clr-custom-secondary);
+    text-shadow: 0vh 0vh 1.7vh var(--clr-custom-secondary);
+}
+
+.main__hex-banking-top-grid-left-scroll-item-square {
+    position: absolute;
+    bottom: -.7vh;
+    left: 2vh;
+    width: 1.3vh;
+    height: 1.3vh;
+    transform: rotate(45deg);
+    background: rgba(255, 255, 255, .25);
+}
+
+.main__hex-banking-top-grid-right-graph-container {
+    position: relative;
+    width: 100%;
+    height: 27vh;
+    border: .1vh solid rgba(255, 255, 255, .15);
+    margin-top: 1vh;
+    overflow: hidden;
+    padding: 1.5vh;
+}
+
+.main__hex-banking-top-grid-right-graph-header {
+    font-size: 1.4vh;
+    text-shadow: 0vh 0vh 1.7vh var(--clr-white);
+}
+
+.main__hex-banking-top-grid-right-graph-img {
+    margin-top: 1.5vh;
+    width: 95%;
+    height: 20.75vh;
+}
+
+.main__hex-banking-top-grid-right-graph-img img {
+    width: 100%;
+}
+
+.main__hex-banking-top-grid-right-graph-square {
+    position: absolute;
+    bottom: -.7vh;
+    right: 2vh;
+    width: 1.3vh;
+    height: 1.3vh;
+    transform: rotate(45deg);
+    background: var(--clr-custom-primary);
+    box-shadow: 0vh 0vh 1.7vh var(--clr-custom-primary);
+}
+
+.main__hex-banking-bottom-grid {
+    margin-top: 2vh;
+    width: 100%;
+    height: 10.5vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vh;
+}
+
+.main__hex-banking-bottom-grid-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: .1vh solid rgba(255, 255, 255, .15);
+    padding: 1vh;
+}
+
+.main__hex-banking-bottom-grid-item-header-icon {
+    width: 3.6vh;
+    height: 3.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-custom-primary);
+    background: #ff780000;
+    font-size: 1.75vh;
+}
+
+.main__hex-banking-bottom-grid-item-bottom-header {
+    font-size: 1.6vh;
+    color: var(--clr-custom-thirdly);
+    text-shadow: 0vh 0vh 1.7vh var(--clr-custom-thirdly);
+    font-weight: 500;
+}
+
+.main__hex-banking-bottom-grid-item-bottom-container {
+    margin-top: 1.5vh;
+}
+
+.main__hex-banking-top-grid-left-deposit-container {
+    width: 100%;
+    height: 27vh;
+    margin-top: 1vh;
+}
+
+.main__hex-banking-top-grid-left-deposit-header {
+    font-size: 2.4vh;
+    text-shadow: 0vh 0vh 1.7vh var(--clr-white);
+}
+
+.main__hex-banking-top-grid-left-deposit-text {
+    line-height: 1.75vh;
+    color: rgba(255, 255, 255, .55);
+    margin-top: .5vh;
+}
+
+.main__hex-banking-top-grid-left-deposit-input-container {
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+    background: rgba(255, 255, 255, 0.15);
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+}
+
+.main__hex-banking-top-grid-left-deposit-input-left-container {
+    color: rgba(255, 255, 255, .55);
+    line-height: 1.75vh;
+    font-size: 1.3vh;
+}
+
+.main__hex-banking-top-grid-left-deposit-input-right-container input {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 2vh;
+    font-family: var(--ff-custom);
+    text-align: right;
+    color: var(--clr-white);
+    font-weight: 500;
+    width: 20vh;
+}
+
+.main__hex-banking-top-grid-left-btn-container {
+    width: 100%;
+    margin-top: 1vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vh;
+}
+
+.main__hex-banking-top-grid-left-btn-done {
+    width: 100%;
+    height: 2.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gr-btn-bank);
+    border: .1vh solid var(--clr-custom-secondary);
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+
+.main__hex-banking-top-grid-left-btn-done:hover {
+    box-shadow: 0vh 0vh 1.7vh var(--clr-custom-secondary);
+}
+
+.main__hex-banking-top-grid-left-btn-cancel {
+    width: 100%;
+    height: 2.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gr-btn-cash);
+    border: .1vh solid var(--clkr-custom-4th);
+    cursor: pointer;
+    transition: .2s ease-in;   
+}
+
+.main__hex-banking-top-grid-left-btn-cancel:hover {
+    box-shadow: 0vh 0vh 1.7vh var(--clkr-custom-4th);
+}
+
+.main__hex-banking-top-grid-left-deposit-input-container.transaction {
+    margin-top: 1vh;
+}
+
+.main__hex-banking-top-grid-left-deposit-input-container.transactionheader {
+    margin-top: 2.6vh;
+}
+

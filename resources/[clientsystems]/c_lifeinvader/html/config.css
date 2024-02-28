@@ -1,0 +1,18 @@
+:root{
+    --container-left-color: #000000;
+
+    --main-color: #3a557acc;
+
+    --border-colors: #346cb97a;
+
+    --radio-background-color: #000000;
+    --radio-background-color2: #000000;
+    --radio-icon-color-after: #000000;
+
+    --box-werbung-schalten-color2: #000000;
+
+    --box-close-background-color: rgba(0, 0, 0, 0.62);
+
+    --box-letzte-werbungen-color: #294b7a93;
+    --box-anrufen-color: #1d63c4;
+}

@@ -1,0 +1,198 @@
+#lawyer {
+    height: 310px;
+    width: 521px;
+
+    position: absolute;
+    background-image: url('../img/lawyer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: aliceblue; */
+}
+
+#la_sexImg {
+    height: 150px;
+    position: absolute;
+    left: 35px;
+    top: 70px;
+}
+
+#la_title {
+    left: 22px;
+    top: 28px;
+    font-size: 18px;
+}
+
+#la_rightTitle {
+    right: 24px;
+    top: 28px;
+    font-size: 18px;
+}
+
+#lawyer .middleRow {
+    left: 170px;
+}
+
+#la_content {
+    top: 70px;
+    width: 200px;
+}
+
+#lawyer .info {
+    width: 75px;
+    font-size: 16px;
+}
+
+#lawyer .value {
+    font-size: 18px;
+}
+
+#la_text {
+    font-size: 14px;
+}
+
+#la_signJudgeDiv, #la_signDiv {
+    top: 225px;
+    width: max-content;
+}
+
+#la_signDiv {
+    left: 350px;
+}
+
+#lawyer .signature {
+    font-size: 35px;
+}
+
+#la_signInfo, #la_signInfoJudge {
+    position: relative;
+    top: -15px;
+    font-size: 12px;
+}
+
+@media (min-height: 1440px) { 
+    #lawyer {
+        height: 420px;
+        width: 700px;
+    }
+    
+    #la_sexImg {
+        height: 200px;
+        left: 47px;
+        top: 93px;
+    }
+    
+    #la_title {
+        left: 29px;
+        top: 37px;
+        font-size: 24px;
+    }
+    
+    #la_rightTitle {
+        right: 32px;
+        top: 37px;
+        font-size: 24px;
+    }
+    
+    #lawyer .middleRow {
+        left: 226px;
+    }
+    
+    #la_content {
+        top: 94px;
+        width: 266px;
+    }
+    
+    #lawyer .info {
+        width: 100px;
+        font-size: 22px;
+    }
+    
+    #lawyer .value {
+        font-size: 24px;
+    }
+    
+    #la_text {
+        font-size: 19px;
+    }
+    
+    #la_signJudgeDiv, #la_signDiv {
+        top: 300px;
+    }
+    
+    #la_signDiv {
+        left: 466px;
+    }
+    
+    #lawyer .signature {
+        font-size: 47px;
+    }
+    
+    #la_signInfo, #la_signInfoJudge {
+        top: -15px;
+        font-size: 18px;
+    }
+} /* * 1,33 */
+
+@media (min-height: 2160px) { 
+    #lawyer {
+        height: 625px;
+        width: 1050px;
+    }
+    
+    #la_sexImg {
+        height: 300px;
+        left: 70px;
+        top: 138px;
+    }
+    
+    #la_title {
+        left: 45px;
+        top: 55px;
+        font-size: 36px;
+    }
+    
+    #la_rightTitle {
+        right: 48px;
+        top: 55px;
+        font-size: 36px;
+    }
+    
+    #lawyer .middleRow {
+        left: 339px;
+    }
+    
+    #la_content {
+        top: 141px;
+        width: 400px;
+    }
+    
+    #lawyer .info {
+        width: 150px;
+        font-size: 33px;
+    }
+    
+    #lawyer .value {
+        font-size: 36px;
+    }
+    
+    #la_text {
+        font-size: 28px;
+    }
+    
+    #la_signJudgeDiv, #la_signDiv {
+        top: 450px;
+    }
+    
+    #la_signDiv {
+        left: 699px;
+    }
+    
+    #lawyer .signature {
+        font-size: 70px;
+    }
+    
+    #la_signInfo, #la_signInfoJudge {
+        top: -20px;
+        font-size: 28px;
+    }
+} /* * 1,5 */

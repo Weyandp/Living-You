@@ -1,0 +1,15 @@
+:root {
+  --mnstyle: radial-gradient(40.93% 40.93% at 50.00% 97.50%, rgba(134, 85, 33, 0.08) 4.88%, rgba(134, 85, 33, 0.08) 100%), radial-gradient(151.42% 60.66% at 96.28% 60.79%, rgba(134, 85, 33, 0.08) 0%, rgba(134, 82, 33, 0.08) 100%), radial-gradient(242.14% 78.00% at 5.23% 8.70%, rgba(134, 82, 33, 0.08) 0%, rgba(134, 92, 33, 0.08) 100%), #000;
+  --backgroundshadow: radial-gradient(201.39% 201.39% at 50.00% 50.00%, #010b00 0%, rgba(11, 5, 0, 0) 100%);
+  --headercolor: radial-gradient(69.12% 69.12% at 50% 50%, #ff7800 0%, rgba(0, 0, 0, 0) 70%);
+  --bordertext: #ff7800;
+  --shadowheadertext: 0px 0px 2.08333vw rgba(220, 131, 7, 0.65);
+  --minbxshadow: 0px 0px 1.667vw rgba(220, 146, 7, 0.5);
+  --btnshadow: 0px 0px 2.5vw rgba(220, 128, 7, 0.25);
+  --btnhvrshadow: 0px 0px 2.5vw rgba(220, 128, 7, 0.5); 
+  --cmnboxborder: 0.1042vw solid #ff7800;
+  --cmnboxbg: radial-gradient(82.46% 223.67% at 50.00% 50.00%, #ff7800 0%, #0F1100 100%);
+  --cmnbxshdw: 0px 0px 1.3021vw rgba(220, 135, 7, 0.25);
+  --shadowbtncar: 0px 0px 2.5vw rgba(220, 142, 7, 0.25);
+  --windowbg: rgba(19, 8, 0, 0.95);
+}

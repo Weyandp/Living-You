@@ -1,0 +1,26 @@
+
+<html>
+    <head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<style type="text/css">
+			html {
+				display: none;
+			}
+		</style>
+    </head>
+    <body>
+		<script type="text/javascript">
+            $(function() {
+				let sound = new Audio('./sounds/panic.ogg');
+				window.addEventListener("message", function(event) {
+					if(event.data) {
+						if(event.data.event == "playSound") {
+							sound.play();
+						}
+					}
+				});
+			});
+        </script>
+    </body>
+</html>
+

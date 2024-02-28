@@ -1,0 +1,12 @@
+F:\saltychat-fivem-master\saltychat\SaltyServer\bin\Debug\netstandard2.0\SaltyServer.net.deps.json
+F:\saltychat-fivem-master\saltychat\SaltyServer\bin\Debug\netstandard2.0\SaltyServer.net.dll
+F:\saltychat-fivem-master\saltychat\SaltyServer\bin\Debug\netstandard2.0\SaltyServer.net.pdb
+F:\saltychat-fivem-master\saltychat\SaltyServer\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+F:\saltychat-fivem-master\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.csproj.AssemblyReference.cache
+F:\saltychat-fivem-master\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.GeneratedMSBuildEditorConfig.editorconfig
+F:\saltychat-fivem-master\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.AssemblyInfoInputs.cache
+F:\saltychat-fivem-master\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.AssemblyInfo.cs
+F:\saltychat-fivem-master\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.csproj.CoreCompileInputs.cache
+F:\saltychat-fivem-master\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.csproj.CopyComplete
+F:\saltychat-fivem-master\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.net.dll
+F:\saltychat-fivem-master\saltychat\SaltyServer\obj\Debug\netstandard2.0\SaltyServer.net.pdb

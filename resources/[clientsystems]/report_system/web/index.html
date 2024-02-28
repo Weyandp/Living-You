@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+	<script src="jquery-3.6.4.min.js"></script>
+    <script src="script.js" async></script>
+  </head>
+  <body>
+    <div id="disclaimer">
+        <a>Bitte beachtet das <span class="red">falsche Reports</span> Strafen mit sich bringen!</a><br>
+        <a>Eure <span class="red">ID,s</span> sowie <span class="red">Identifikatoren</span> werden mit dem Report <span class="red">gespeichert!</span></a>
+    </div>
+    <div id="mainbody">
+        
+
+        <div id="mainheader" class="textheader">Living You Report</div>
+
+        <br>
+        <div id="labelID" class="Label">Report Kategorie</div>
+
+        <select name="reportreason" id="repres" class="Label2">
+        <option value="bug">Bug / Fehler</option>
+        <option value="idea">Anregung / Konzept</option>
+        </select>
+
+        <br><br><br>
+        <div id="labelID" class="Label">Deine Nachricht</div>
+
+        <textarea id="reason" name="textreason"></textarea>
+
+        <div id="btnsend" class="btn">Senden</div>
+		<div id="btnclose" class="btn">Abbrechen</div>
+    </div>
+  </body>
+</html>

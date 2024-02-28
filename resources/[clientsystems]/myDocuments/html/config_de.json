@@ -1,0 +1,88 @@
+{
+	"idcard": {
+		"title": "State of San Andreas",
+		"subtitle": "San Andreas Republic",
+		"rightTitle": "Personalausweis",
+		"rightSubtitle": "Los Santos",
+		"nameInfo": "Name",
+		"firstnameInfo": "Vorname",
+		"addressInfo": "Adresse",
+		"sexInfo": "Geschlecht",
+		"dobInfo": "Geburtsdatum",
+		"idInfo": "ID-Nummer",
+		"doiInfo": "Ausstellungsdatum",
+		"signInfo": "Unterschrift"
+	},
+	"drive": {
+		"title": "State of San Andreas",
+		"rightTitle": "Führerschein",
+		"nameInfo": "Name",
+		"firstnameInfo": "Vorname",
+		"dobInfo": "Geburtsdatum",
+		"idInfo": "ID-Nummer",
+		"signInfo": "Unterschrift",
+		"classesInfo": "Klassen"
+	},
+	"hunting": {
+		"title": "Jagdschein",
+		"subtitle": "State of San Andreas",
+		"nameInfo": "Name",
+		"addressInfo": "Adresse",
+		"dobInfo": "Geburtsdatum",
+		"stampInfo": "Stempel"
+	},
+	"fly": {
+		"title": "Pilotenschein",
+		"subtitle":"State of San Andreas",
+		"idInfo": "ID-Nr."
+	},
+	"boat": {
+		"title": "SAN ANDREAS",
+		"title2": "BOOTSSCHEIN",
+		"licenseNoinfo": "LIZENZ Nr."
+	},
+	"md": {
+		"title": "Los <br> Santos",
+		"subtitle": "Medical <br> Department",
+		"nameInfo": "Name",
+		"rankInfo": "Rang"
+	},
+	"pd": {
+		"title": "LOS SANTOS",
+		"subtitle": "POLICE DEPARTMENT",
+		"nameInfo": "NAME",
+		"rankInfo": "RANG",
+		"subtitle2": "LOS SANTOS PD"
+	},
+	"weapon": {
+		"title": "WAFFENBESITZKARTE",
+		"subtitle": "STATE OF SAN ANDREAS"
+	},
+	"lawyer": {
+		"title": "Courts of San Andreas",
+		"rightTitle": "Anwaltslizenz",
+		"nameInfo": "Name:",
+		"addressInfo": "Adresse:",
+		"signJudge": "Flo Wayne",
+		"signInfoJudge": "Anwaltskammer",
+		"signInfo": "Besitzer der Lizenz",
+		"text": "Der Besitzer dieser Lizenz ist von der Anwaltskammer San Andreas dazu berechtigt als Rechtsvertreter zu fungieren."
+	},
+	"menu": {
+		"documents": "Dokumente",
+		"documentsSubtitle": "Schaue dir deine eigenen Dokumente an oder zeige sie anderen",
+		"myDocuments": "Meine Dokumente",
+		"savedDocuments": "Gespeicherte Dokumente",
+		"subtitle": "Klicke zum anschauen",
+		"show": "Vorzeigen",
+		"delete": "Löschen",
+		"openLicenseMenu": "Lizenzen geben"
+	},
+	"giveLicenseMenu": {
+		"title": "LIZENEN",
+		"giveTo": "Lizenzen an NAMEPLACEHOLDER geben/entfernen",
+		"accept": "Bestätigen",
+		"abort": "Entfernen",
+		"assign": "Klicke zum Zuweisen"
+	}
+}

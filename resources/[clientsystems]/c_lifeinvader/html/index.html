@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tagesschau</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="config.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" />
+        <script src="./index.js"></script>
+    </head>
+    <body>
+        <div class="container-lifeinvader">
+            <div class="container-lifeinvader-left">
+                <img id="logo1" src="img/logo.png" />
+                <img id="logo2" src="img/logo.png" />
+                <p class="lifeinvader">Tagesschau</p>
+                <p class="servername">Lion Roleplay</p>
+                <div class="werbung-input">
+                    <textarea id="input" placeholder="Schreibe hier deine Werbung..." rows="20" required></textarea>
+                </div>
+                <span class="letters-left"
+                    ><span id="currentLetters"></span> <span class="max-letters">/<span id="maxLetters"></span></span>
+                </span>
+                <div class="container-privat-anonym">
+                    <input type="radio" name="radio-werbung" id="public" checked />
+                    <label class="public">Öffentlich</label>
+                    <input type="radio" name="radio-werbung" id="anonym" />
+                    <label class="anonym">Anonym</label>
+                </div>
+                <div class="container-price">
+                    <span class="werbung-price"><span id="price"></span> <span class="price-dollar">$</span> </span>
+                    <img id="money1" src="img/money.png" />
+                    <img id="money2" src="img/money.png" />
+                </div>
+                <div class="container-werbung-schalten" onmousedown="PlaceAd()">
+                    <i id="send-icon" class="fa-solid fa-paper-plane"></i>
+                    <div class="box-werbung-schalten">
+                        <p class="werbung-schalten">Werbung schalten</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-lifeinvader-right">
+                <img id="logo3" src="img/logo.png" />
+                <p class="lifeinvader2">Tagesschau</p>
+                <p class="letzte-werbung">LETZTE WERBUNG</p>
+                <div class="box-close" onmousedown="Close()">
+                    <i id="close-icon" class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="container-letzte-werbungen-flex" id="lastAdsContainer"></div>
+            </div>
+        </div>
+    </body>
+</html>

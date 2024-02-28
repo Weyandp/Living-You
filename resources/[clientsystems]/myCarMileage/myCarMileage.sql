@@ -1,0 +1,2 @@
+ALTER TABLE `owned_vehicles` 
+ADD COLUMN `milage` DOUBLE NOT NULL DEFAULT 0;

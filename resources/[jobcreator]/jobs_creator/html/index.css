@@ -1,0 +1,23 @@
+.bi { vertical-align: 0.125em; }
+
+.clickable {
+    cursor: pointer;
+}
+
+#job-creator-version {
+    line-height: 10vh;
+
+    width: max-content;
+
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main-text-color {
+    color: #00dcff;
+}
+
+.swal-overlay--show-modal .swal-modal {
+    will-change: unset !important;
+}

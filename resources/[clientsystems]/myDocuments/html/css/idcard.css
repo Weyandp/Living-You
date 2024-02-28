@@ -1,0 +1,150 @@
+#idcard {
+    height: 310px;
+    width: 521px;
+    position: absolute;
+    background-image: url('../img/idcard.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: aliceblue; */
+}
+
+#idcard .middleRow {
+    left: 200px;
+}
+
+#idcard .left {
+    left: 90px;
+}
+
+#idcard .right {
+    right: 90px;
+}
+
+#idcard img {
+    height: 180px;
+    position: absolute;
+    left: 45px;
+    top: 90px;
+}
+
+#id_nameDiv {
+    top: 70px;
+}
+
+#id_firstnameDiv {
+    top: 100px;
+}
+
+#id_addressDiv {
+    top: 130px;
+}
+
+#id_sexDiv, #id_dobDiv {
+    top: 160px
+}
+
+#id_idDiv, #id_doiDiv {
+    top: 190px
+}
+
+#id_signDiv  {
+    top: 225px
+}
+
+@media (min-height: 1440px) { 
+    #idcard {
+        height: 420px;
+        width: 700px;
+    }
+    
+    #idcard .middleRow {
+        left: 266px;
+    }
+    
+    #idcard .left {
+        left: 120px;
+    }
+    
+    #idcard .right {
+        right: 120px;
+    }
+    
+    #idcard img {
+        height: 240px;
+        left: 60px;
+        top: 120px;
+    }
+    
+    #id_nameDiv {
+        top: 95px;
+    }
+    
+    #id_firstnameDiv {
+        top: 133px;
+    }
+    
+    #id_addressDiv {
+        top: 173px;
+    }
+    
+    #id_sexDiv, #id_dobDiv {
+        top: 213px
+    }
+    
+    #id_idDiv, #id_doiDiv {
+        top: 253px
+    }
+    
+    #id_signDiv  {
+        top: 300px
+    }
+} /* * 1,33 */
+
+@media (min-height: 2160px) { 
+    #idcard {
+        height: 625px;
+        width: 1050px;
+    }
+    
+    #idcard .middleRow {
+        left: 400px;
+    }
+    
+    #idcard .left {
+        left: 180px;
+    }
+    
+    #idcard .right {
+        right: 180px;
+    }
+    
+    #idcard img {
+        height: 360px;
+        left: 90px;
+        top: 180px;
+    }
+    
+    #id_nameDiv {
+        top: 140px;
+    }
+    
+    #id_firstnameDiv {
+        top: 200px;
+    }
+    
+    #id_addressDiv {
+        top: 260px;
+    }
+    
+    #id_sexDiv, #id_dobDiv {
+        top: 320px
+    }
+    
+    #id_idDiv, #id_doiDiv {
+        top: 380px
+    }
+    
+    #id_signDiv  {
+        top: 470px
+    }
+} /* * 1,5 */

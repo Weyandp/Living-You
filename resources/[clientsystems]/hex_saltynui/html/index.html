@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./assets/js/vue.js"></script>
+    <script src="./assets/config/all.js"></script>
+
+    <link rel="stylesheet" href="./assets/css/misc.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Salty Chat</title>
+</head>
+
+<body>
+    <div class="salty" :class="{ show: show }">
+        <div class="salty__bg" ref="salty">
+            <svg class="left" width="658" height="1080" viewBox="0 0 658 1080" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path :style="{'filter': `drop-shadow(0 0 250px ${getColor('lines').top.shadow})` }"
+                    d="M98.7623 597.733L51.76 -10.3547L-283.886 -251.516L-216.361 622.091L98.7623 597.733Z"
+                    fill="url(#top_fill)" fill-opacity="0.55" stroke="url(#top_stroke)" stroke-width="1.91553" />
+                <path :style="{'filter': `drop-shadow(0 0 250px ${getColor('lines').bottom.shadow})` }"
+                    d="M98.774 1098.45L51.7532 386.384L-283.895 104.098L-216.351 1126.96L98.774 1098.45Z"
+                    fill="url(#bottom_fill)" fill-opacity="0.55" stroke="url(#bottom_stroke)" stroke-width="1.91553" />
+
+                <path d="M-1 406.676H421.257L658 168H-1V406.676Z" fill="url(#lineMisc_fill)" fill-opacity="0.05"
+                    stroke="url(#lineMisc_stroke)" stroke-opacity="0.25" />
+                <path d="M-1 671.649H421.257L658 910.325H-1V671.649Z" fill="url(#lineMisc_fill)" fill-opacity="0.05"
+                    stroke="url(#lineMisc_stroke)" stroke-opacity="0.25" />
+            </svg>
+            <svg class="right" width="658" height="1080" viewBox="0 0 658 1080" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path :style="{'filter': `drop-shadow(0 0 250px ${getColor('lines').top.shadow})` }"
+                    d="M98.7623 597.733L51.76 -10.3547L-283.886 -251.516L-216.361 622.091L98.7623 597.733Z"
+                    fill="url(#top_fill)" fill-opacity="0.55" stroke="url(#top_stroke)" stroke-width="1.91553" />
+                <path :style="{'filter': `drop-shadow(0 0 250px ${getColor('lines').bottom.shadow})` }"
+                    d="M98.774 1098.45L51.7532 386.384L-283.895 104.098L-216.351 1126.96L98.774 1098.45Z"
+                    fill="url(#bottom_fill)" fill-opacity="0.55" stroke="url(#bottom_stroke)" stroke-width="1.91553" />
+
+                <path d="M-1 406.676H421.257L658 168H-1V406.676Z" fill="url(#lineMisc_fill)" fill-opacity="0.05"
+                    stroke="url(#lineMisc_stroke)" stroke-opacity="0.25" />
+                <path d="M-1 671.649H421.257L658 910.325H-1V671.649Z" fill="url(#lineMisc_fill)" fill-opacity="0.05"
+                    stroke="url(#lineMisc_stroke)" stroke-opacity="0.25" />
+            </svg>
+
+        </div>
+        <div class="salty__content">
+            <div class="salty__content_header">
+                <div class="salty__content_header-logo">
+                    <h1>{{getText('title')}}</h1>
+                    <span
+                        :style="{ background: getColor('titleBox').background, '--shadow': getColor('titleBox').shadow }">{{getText('titleBox')}}</span>
+                </div>
+                <h2 :style="{ color: getColor('description') }">{{getText('description')}}</h2>
+            </div>
+            <div class="salty__content_middle">
+                <button @click="toLink( 'discord' )" class="salty__content_middle-button">
+                    <div class="salty__content_middle-button_icon">
+                        <svg class="discord" viewBox="0 0 73 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                :style="{ 'filter': `drop-shadow(0 0 58px ${getColor('URLs').shadow})` }"
+                                clip-rule="evenodd"
+                                d="M22.9314 0.234932C16.5086 1.42863 10.9859 5.09422 7.41411 10.5342C5.98619 12.7089 5.06343 14.7596 3.84331 18.4697C2.68523 21.991 1.72161 25.7081 1.09871 29.0563C0.565031 31.9249 0 36.391 0 37.7415C0 40.8865 1.6569 44.3313 4.11599 46.2986C7.10658 48.6911 12.6742 50.6768 17.0417 50.9087L18.7621 51L20.3464 48.9497C21.2178 47.8221 22.1036 46.6789 22.3147 46.4093L22.6986 45.9194L21.5642 45.5366C18.546 44.5183 15.4294 42.5863 13.2812 40.4015C12.5599 39.668 12.0081 39.029 12.0548 38.9814C12.1015 38.9336 12.8066 39.2361 13.6214 39.6534C14.4365 40.0706 16.4269 40.9147 18.0448 41.5294C32.2064 46.9098 43.4308 47.0655 54.4292 42.0342C56.0676 41.2847 58.7175 39.8511 60.0527 38.9919C60.4119 38.7607 60.7058 38.6412 60.7058 38.7262C60.7058 38.8112 60.1714 39.4254 59.5184 40.0911C57.5006 42.1479 54.4653 44.0056 51.2831 45.1315C50.5492 45.391 49.9195 45.6266 49.8838 45.655C49.7974 45.7235 50.9163 47.2256 52.4805 49.1415L53.748 50.6935L55.386 50.5842C59.7732 50.2911 64.5324 48.7103 67.9817 46.4006C69.5313 45.363 71.0675 43.6024 71.869 41.9451C73.1561 39.284 73.2909 37.3423 72.5451 32.2012C71.6302 25.8947 69.2093 17.2894 67.2128 13.2468C63.5188 5.76723 56.397 0.866801 48.0591 0.0671475C46.8777 -0.0460688 46.8203 -0.0341699 46.3524 0.422775L45.8682 0.8957L47.9919 1.60883C52.8951 3.25539 58.2522 6.02817 60.7892 8.23215L61.2895 8.66682L60.7058 8.42458C60.3848 8.2913 59.4782 7.87499 58.6912 7.49947C57.9042 7.12378 56.2909 6.45842 55.1063 6.02069C42.1672 1.23994 27.8675 1.4356 15.0931 6.56841C13.8089 7.08451 12.383 7.69819 11.9244 7.93227L11.0905 8.35777L11.4929 7.9146C12.0157 7.33848 13.905 6.01814 15.6112 5.03608C18.3056 3.48539 22.1936 1.90309 25.5343 0.997526C26.3041 0.788943 26.9635 0.592769 26.9996 0.56183C27.0354 0.530891 26.97 0.388777 26.854 0.246322C26.5905 -0.0773476 24.642 -0.0829576 22.9314 0.234932ZM27.4485 22.9183C31.3615 24.7848 32.5233 29.842 29.8351 33.3083C28.0284 35.6383 24.9441 36.4556 22.4143 35.2752C21.1393 34.68 19.7866 33.3148 19.1347 31.9649C18.6303 30.9208 18.5953 30.7323 18.5953 29.0599C18.5953 27.4752 18.6462 27.1605 19.0423 26.2993C19.5323 25.2338 20.7367 23.8186 21.6356 23.2523C23.4054 22.1373 25.5526 22.0139 27.4485 22.9183ZM50.0798 22.7624C51.422 23.2812 52.8697 24.6793 53.5732 26.1358C54.0842 27.1938 54.1182 27.3761 54.1182 29.0563C54.1182 30.7282 54.0825 30.9223 53.5854 31.9516C52.1753 34.8713 49.0631 36.4271 46.2702 35.6087C43.691 34.8531 41.952 32.812 41.4766 29.9829C40.9239 26.6945 43.1927 23.2755 46.4876 22.4311C47.4126 22.194 48.9844 22.339 50.0798 22.7624Z"
+                                fill="url(#button_gradient)" />
+                        </svg>
+                    </div>
+                    <h1>{{ getText('buttons').discord }}</h1>
+                </button>
+
+                <div class="salty__content_middle-info">
+                    <div class="salty__content_middle-info_inner"
+                        :style="{ 'filter': `drop-shadow(0 0 15px ${getColor('middle').shadow})`, '--border': getColor('middle').border }">
+                    </div>
+                    <img src="./assets/img/middle.png" :style="{ '--shadow': getColor('middle').shadow }">
+                </div>
+
+                <button @click="toLink( 'teamspeak' )" class="salty__content_middle-button">
+                    <div class="salty__content_middle-button_icon">
+                        <svg class="teamspeak" viewBox="0 0 60 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                :style="{ 'filter': `drop-shadow(0 0 58px ${getColor('URLs').shadow})` }"
+                                clip-rule="evenodd"
+                                d="M18.2403 0.0697545C14.7923 0.292033 11.8052 0.69633 10.3875 1.13294C9.2412 1.4859 8.44474 2.17019 8.0965 3.10152C7.89475 3.64093 4.68586 18.3131 4.68586 18.6961C4.68586 18.7509 4.29956 19.0217 3.82737 19.2976C2.18676 20.257 0.67661 22.258 0.193081 24.1137C-0.0593707 25.0827 -0.0622379 27.1415 0.187477 28.0809C0.903908 30.7757 3.04212 32.9429 5.79368 33.7628C6.85183 34.0782 8.9069 34.0785 9.9575 33.7634C13.3083 32.7584 15.5504 29.9649 15.7336 26.567C15.8919 23.634 14.5629 21.0179 12.1343 19.4816L11.2075 18.8953L11.2376 11.1434L11.2676 3.39168L11.732 3.2395C12.3758 3.02869 15.1383 2.57983 16.937 2.39391C19.2472 2.15495 25.1317 2.19417 27.1028 2.46153C31.3179 3.03338 34.9558 4.1066 38.3765 5.78724C48.4315 10.7274 54.4573 19.5973 54.47 29.4771C54.4768 34.7892 52.7644 39.8172 49.4136 44.3238C48.3575 45.7442 45.3841 48.739 43.975 49.8016C38.3915 54.0123 32.1006 56.2821 24.6917 56.7592C19.9102 57.0672 14.8673 56.5325 10.7326 55.2794L9.29789 54.8446L8.42089 55.3191C7.39636 55.8734 7.38815 55.855 8.99891 56.5948C12.5897 58.244 16.8982 59.0019 22.6716 59C26.7825 58.9987 29.63 58.6582 33.3587 57.7226C40.2391 55.9961 46.2392 52.7071 50.8298 48.1459C58.7643 40.2622 61.1257 29.4381 57.0118 19.8094C52.4791 9.20076 41.1674 1.84108 26.9725 0.265193C24.7397 0.0172468 20.5199 -0.0770847 18.2403 0.0697545ZM15.8945 11.318V18.1135L16.93 19.0604C20.4638 22.2913 22.672 27.8138 22.6714 33.4195C22.6712 36.3457 22.1873 39.6722 21.4134 42.0677C20.5901 44.616 19.5991 46.4798 18.03 48.4316C17.6443 48.9112 17.3758 49.3327 17.4333 49.3681C17.7396 49.5575 20.8918 49.8808 22.4761 49.8855C24.0043 49.8901 24.4489 49.8444 25.213 49.6038C26.734 49.1252 27.15 48.6033 27.1357 47.1919C27.1305 46.6775 27.0637 45.9928 26.9874 45.6703C26.6746 44.349 26.8607 43.5312 27.6195 42.893C28.1158 42.4756 28.1167 42.2373 27.6242 41.6765C27.4091 41.4317 27.2332 41.1507 27.2332 41.0521C27.2332 40.9536 27.4971 40.6215 27.8197 40.3141C28.1422 40.0069 28.4061 39.6691 28.4061 39.5635C28.4061 39.458 28.2531 38.9893 28.0661 38.522C27.4644 37.0181 27.8535 35.8292 29.0523 35.5086C29.3062 35.4407 29.8573 35.292 30.2768 35.1782C31.2274 34.9203 31.6644 34.5129 31.6644 33.8845C31.6644 33.5001 31.2106 32.7416 28.975 29.3888C26.3401 25.437 26.2871 25.344 26.3494 24.7909C26.393 24.4038 26.6121 23.927 27.0461 23.2745C27.6359 22.3879 27.6777 22.2706 27.658 21.5599C27.5959 19.3193 25.9087 14.7962 23.9182 11.5338C22.5259 9.25184 20.5417 7.00521 18.9799 5.94228C18.3361 5.50411 16.7131 4.71988 16.1876 4.59311L15.8943 4.52236L15.8945 11.318ZM24.9481 5.18203C27.7051 8.40663 29.7905 12.1504 31.1898 16.387C32.3197 19.8084 32.5521 22.3153 31.8883 23.9217C31.6935 24.3932 31.5341 24.8174 31.5341 24.8647C31.5341 24.9119 32.5229 26.4365 33.7315 28.2526C36.1261 31.8511 36.2797 32.1913 36.2725 33.8789C36.2647 35.7001 35.3503 37.4893 33.903 38.5149C33.1733 39.0321 33.1026 39.1233 33.1 39.5518C33.099 39.7338 33.0014 40.2322 32.883 40.6593C32.7648 41.0864 32.651 41.8266 32.6304 42.3041C32.5864 43.321 32.3962 44.0972 32.0136 44.8226C31.7795 45.2663 31.7375 45.5742 31.7339 46.8754C31.7315 47.7173 31.7386 48.4062 31.7495 48.4063C31.9964 48.4079 34.8711 47.2784 36.0305 46.7241C43.2626 43.2675 48.0918 37.6154 49.5451 30.9067C49.7818 29.814 49.8326 29.1644 49.8326 27.234C49.8326 24.6188 49.6129 23.2408 48.8523 21.0858C45.8722 12.6428 36.9185 6.23062 26.1513 4.82855C25.3053 4.71845 24.582 4.62829 24.5439 4.62829C24.5057 4.62829 24.6877 4.87754 24.9481 5.18203ZM36.0647 12.8693C41.1067 15.8717 44.46 20.3542 45.2221 25.1106C45.4739 26.6819 45.3234 29.4213 44.9015 30.9473C44.4686 32.5126 43.5168 34.4744 42.5017 35.8931C41.7961 36.8791 39.3722 39.4781 39.2614 39.3673C39.2373 39.3431 39.3658 39.0658 39.5471 38.7509C39.7284 38.4361 40.0644 37.6215 40.2938 36.9407C40.6888 35.7688 40.7111 35.5991 40.7136 33.7486C40.7162 31.8769 40.6982 31.7418 40.2901 30.5564C39.9396 29.5383 39.5651 28.8678 38.1799 26.778C36.4996 24.2429 36.4962 24.2361 36.6213 23.7161C36.7932 23.0017 36.7889 20.785 36.6134 19.6067C36.336 17.7448 35.6616 15.3324 34.7481 12.9344C34.5511 12.4175 34.4716 12.0549 34.5552 12.0549C34.6332 12.0549 35.3127 12.4215 36.0647 12.8693ZM9.20053 22.9389C9.8183 23.1889 10.6304 23.9853 10.9586 24.6629C11.6139 26.016 11.1485 27.8879 9.92491 28.8209C8.04176 30.2568 5.26948 29.3344 4.60062 27.0494C4.36459 26.2427 4.42507 25.3295 4.75845 24.6677C5.03345 24.1216 5.81375 23.2964 6.29232 23.0453C7.1035 22.6199 8.30385 22.576 9.20053 22.9389Z"
+                                fill="url(#button_gradient)" />
+                        </svg>
+                    </div>
+                    <h1>{{ getText('buttons').teamspeak }}</h1>
+                </button>
+            </div>
+            <div class="salty__content_footer">
+                <div class="salty__content_footer-info">
+                    <img src="./assets/img/info.png" alt="">
+                    <div class="salty__content_footer-info_text">
+                        <h1>{{ getText('info').title }}</h1>
+                        <h2>{{ getText('info').text }}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <svg>
+            <defs>
+                <radialGradient id="button_gradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(36.5 25.5) rotate(90) scale(55.5 79.4412)">
+                    <stop :stop-color=" getColor('URLs').background " />
+                    <stop offset="1" :stop-color=" getColor('URLs').background " stop-opacity="0" />
+                </radialGradient>
+                <clipPath id="loadingBarClip1" clipPathUnits="objectBoundingBox">
+                    <path d="M0.212,0 L1,0 V1 L0,1 L0.212,0"></path>
+                </clipPath>
+
+                <radialGradient id="bottom_fill" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(1.11847 269.879) rotate(108.028) scale(773.459 2488.74)">
+                    <stop :stop-color=" getColor('lines').bottom.fill " />
+                    <stop offset="1" :stop-color=" getColor('lines').bottom.fill " stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="bottom_stroke" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(-19.2882 312.809) rotate(131.056) scale(404.761 1285.76)">
+                    <stop :stop-color=" getColor('lines').bottom.stroke " />
+                    <stop offset="1" :stop-color=" getColor('lines').bottom.stroke " stop-opacity="0" />
+                </radialGradient>
+
+                <radialGradient id="top_fill" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(1.11845 -109.989) rotate(110.855) scale(672.391 2445.77)">
+                    <stop :stop-color=" getColor('lines').top.fill " />
+                    <stop offset="1" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="top_stroke" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(-19.2882 -73.3133) rotate(135.554) scale(372.378 1193.97)">
+                    <stop :stop-color=" getColor('lines').top.stroke " />
+                    <stop offset="1" :stop-color=" getColor('lines').top.stroke " stop-opacity="0" />
+                </radialGradient>
+
+                <radialGradient id="lineMisc_fill" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(629.992 373.822) rotate(-158.145) scale(578.864 1884.24)">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+                <radialGradient id="lineMisc_stroke" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(599.071 356.429) rotate(-134.675) scale(300.987 979.729)">
+                    <stop stop-color="white" />
+                    <stop offset="1" stop-color="white" stop-opacity="0" />
+                </radialGradient>
+            </defs>
+
+        </svg>
+
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

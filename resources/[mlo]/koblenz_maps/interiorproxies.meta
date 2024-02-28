@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SInteriorOrderData>
+    <startFrom value="2000" />
+    <filePathHash value="0" />
+    <proxies>
+        <Item>elburro_shop_milo_</Item>
+        <Item>ajaxon_burton_lsc_milo_</Item>
+        <Item>apa_distlodlights_medium015</Item>
+        <Item>apa_lodlights_medium015</Item>
+        <Item>apa_distlodlights_small061</Item>
+        <Item>distlodlights_medium015</Item>
+        <Item>hei_distlodlights_medium015</Item>
+        <Item>hei_distlodlights_small061</Item>
+        <Item>distlodlights_small060</Item>
+        <Item>hei_lodlights_medium015</Item>
+        <Item>apa_lodlights_small061</Item>
+        <Item>hei_lodlights_small061</Item>
+        <Item>lodlights_small060</Item>
+        <Item>lodlights_medium015</Item>
+        <Item>vw_distlodlights_small061</Item>
+        <Item>vw_distlodlights_medium015</Item>
+        <Item>vw_lodlights_medium015</Item>
+        <Item>apa_bt1_02_interior_v_carmod_milo_</Item>
+        <Item>ajaxon_hei_ap1_04_interior_v_carmod_milo_</Item>
+        <Item>apa_bt1_02_strm_0</Item>
+        <Item>vw_lodlights_small061</Item>
+        <Item>apa_ss1_rd1_critical_1</Item>
+        <Item>apa_bt1_02</Item>
+        <Item>apa_ss1_occl_00</Item>
+        <Item>apa_ss1_rd1_strm_2</Item>
+        <Item>bh1_occl_07</Item>
+        <Item>brofx_mansion09_mlo</Item>
+        <Item>apa_ss1_occl_02</Item>
+        <Item>apa_ss1_rd1_long_0</Item>
+        <Item>apa_ss1_occl_03</Item>
+        <Item>hei_bh1_42_strm_1</Item>
+        <Item>hei_hw1_02_interior_2_heist_ornate_bank_milo_</Item>
+        <Item>k4mb1_ornate_bank_milo_</Item>
+        <Item>apa_distlodlights_small031</Item>
+        <Item>hei_distlodlights_small031</Item>
+        <Item>hei_lodlights_small031</Item>
+        <Item>molo_lux_milo_</Item>
+        <Item>apa_lodlights_small031</Item>
+        <Item>gabz_pillbox_ext</Item>
+        <Item>gabz_pillbox_milo_</Item>
+        <Item>gabz_pillbox_dlc_milo_</Item>
+        <item>slb2k11_cellblock_milo_</item>
+        <item>int_luxury_milo_</item>
+        <item>slb2k11_jva_office_milo_</item>
+        <item>slb2k11_jva_entrance_milo_</item>
+        <Item>hei_dt1_occl_07</Item>
+        <Item>hei_dt1_06_strm_0</Item>
+        <Item>hei_dt1_rd1_long_1</Item>
+        <Item>hei_dt1_06_long_0</Item>
+        <Item>hei_dt1_rd1_strm_4</Item>
+        <Item>bh1_occl_01</Item>
+        <Item>brofx_mansion10_mlo</Item>
+        <Item>hei_bh1_rd_critical_1</Item>
+        <Item>lspd_props</Item>
+        <Item>hei_fwy_04_strm_0</Item>
+        <Item>hei_hw1_09_critical_0</Item>
+        <Item>hei_hw1_09_long_0</Item>
+        <Item>hei_hw1_rd_critical_1</Item>
+        <Item>hw1_occl_01</Item>
+        <Item>hei_hw1_09_strm_0</Item>
+        <Item>slb2k11_vinewood_garage</Item>
+        <Item>slb2k11_vinewood_outside</Item>
+        <Item>lspd</Item>
+        <Item>slb2k11_vinewoodpd_lspd</Item>
+        <Item>slb2k11_vinewood_floor_ug</Item>
+        <Item>ch1_occl_03</Item>
+        <Item>slb2k11_vinewood_stairs</Item>
+        <Item>italy</Item>
+        <Item>slb2k11_vinewood_main</Item>
+        <Item>int_italy2_milo_</Item>
+    </proxies>
+</SInteriorOrderData>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SInteriorOrderData>
+    <startFrom value="4000" />
+    <filePathHash value="0" />
+    <proxies>
+        <Item>center_mlo</Item>
+    </proxies>
+</SInteriorOrderData>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SInteriorOrderData>
+  <startFrom value="2500" />
+  <filePathHash value="0" />
+  <proxies>
+    	<Item>bm_middoc_milo_</Item>
+  </proxies>
+</SInteriorOrderData>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="2000" />
+  <proxies>
+	<Item>int_vesp_01_1_milo_</Item>
+	<Item>int_vesp_01_2_milo_</Item>
+	<Item>int_vesp_1_1_milo_</Item>
+	<Item>int_vesp_1_2_milo_</Item>
+	<Item>int_vesp_02_1_milo_</Item>
+	<Item>int_vesp_02_2_milo_</Item>
+	<Item>int_vesp_03_1_milo_</Item>
+	<Item>int_vesp_3_1_milo_</Item>
+	<Item>int_vesp_3_2_milo_</Item>
+	<Item>int_vesp_4_2_milo_</Item>
+	<Item>int_vesp_5_2_milo_</Item>
+	<Item>int_vesp_big_lift_milo_</Item>
+	<Item>int_vesp_big_stair_milo_</Item>
+	<Item>int_vesp_slift_milo_</Item>
+	<Item>int_vesp_smole_stair_milo_</Item>
+  </proxies>
+</SInteriorOrderData>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="3000" />
+  <proxies>
+	<Item>gm_mecanica</Item>
+  </proxies>
+</SInteriorOrderData>
+
+<?xml version="1.0" encoding="utf-8"?>
+<CMapParentTxds>
+  <txdRelationships>
+		<Item>
+			<parent>starkmansion_interior2</parent>
+			<child>starkmansion_interior</child>
+		</Item>
+		<Item>
+			<parent>starkmansion_exterior2</parent>
+			<child>starkmansion_exterior</child>
+		</Item>
+  </txdRelationships>
+</CMapParentTxds>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="5250" />
+  <proxies>
+	<Item>verpi_dv_school_milo_</Item>
+	</proxies>
+</SInteriorOrderData>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SSetupData>
+  <deviceName>dlc_int_mafc</deviceName>
+  <datFile>content.xml</datFile>
+  <timeStamp>22/10/2018 12:00:00</timeStamp>
+  <nameHash>int_mafc</nameHash>
+  <contentChangeSets />
+  <contentChangeSetGroups>
+    <Item>
+      <NameHash>GROUP_MAP</NameHash>
+      <ContentChangeSets>
+        <Item>int_mafc_STREAM</Item>
+      </ContentChangeSets>
+    </Item>
+  </contentChangeSetGroups>
+  <startupScript />
+  <scriptCallstackSize value="0" />
+  <type>EXTRACONTENT_COMPAT_PACK</type>
+  <order value="31" />
+  <minorOrder value="0" />
+  <isLevelPack value="false" />
+  <dependencyPackHash />
+  <requiredVersion />
+  <subPackCount value="0" />
+</SSetupData>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CDataFileMgr__ContentsOfDataFileXml>
+  <disabledFiles />
+  <includedXmlFiles />
+  <includedDataFiles />
+  <dataFiles>
+    <Item>
+      <filename>dlc_int_mafc:/%PLATFORM%/int_mafc.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <locked value="true"/>
+	    <disabled value="true"/>
+	    <persistent value="true"/>
+	    <overlay value="true"/>
+    </Item>	
+  </dataFiles>
+  <contentChangeSets>
+	<Item>
+	  <changeSetName>int_mafc_STREAM</changeSetName>
+	  <filesToDisable />
+	  <filesToEnable>
+      <Item>dlc_int_mafc:/%PLATFORM%/int_mafc.rpf</Item>
+	  </filesToEnable>
+	  <txdToLoad />
+	  <txdToUnload />
+	  <residentResources />
+	  <unregisterResources />
+	</Item>
+  </contentChangeSets>
+  <patchFiles />
+</CDataFileMgr__ContentsOfDataFileXml>

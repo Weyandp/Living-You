@@ -1,0 +1,1 @@
+create a item "panicdevice" to use the Panic Button 

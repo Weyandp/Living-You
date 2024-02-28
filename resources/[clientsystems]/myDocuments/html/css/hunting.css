@@ -1,0 +1,163 @@
+#hunting {
+    height: 310px;
+    width: 521px;
+    position: absolute;
+    background-image: url('../img/hunting.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#hunting * {
+    color: #51522F;
+}
+
+#hunting .title {
+    top: 0px;
+    font-size: 40px;
+    width: 220px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+#hunting .subtitle {
+    top: 252px;
+    font-size: 13px;
+    left: 37px;
+}
+
+#hunting .secRow {
+    left: 350px;
+}
+
+#hunting .value {
+    font-size: 20px;
+}
+
+#hunting .middleRow {
+    left: 212px;
+}
+
+#hu_nameDiv {
+    top: 98px
+}
+
+#hu_addressDiv {
+    top: 134px
+}
+
+#hu_dobDiv {
+    top: 169px
+}
+
+#hu_stampDiv {
+    top: 169px;
+}
+
+#hu_signDiv {
+    top: 250px;
+    left: 190px;
+}
+
+@media (min-height: 1440px) { 
+    #hunting {
+        height: 475px;
+        width: 700px;
+    }
+
+    #hunting .title {
+        top: 0px;
+        font-size: 53px;
+        width: 293px;
+    }
+    
+    #hunting .subtitle {
+        top: 335px;
+        font-size: 17px;
+        left: 48px;
+    }
+    
+    #hunting .secRow {
+        left: 470px;
+    }
+    
+    #hunting .value {
+        font-size: 26px;
+    }
+    
+    #hunting .middleRow {
+        left: 285px;
+    }
+    
+    #hu_nameDiv {
+        top: 135px
+    }
+    
+    #hu_addressDiv {
+        top: 185px
+    }
+    
+    #hu_dobDiv {
+        top: 230px
+    }
+    
+    #hu_stampDiv {
+        top: 250px;
+    }
+    
+    #hu_signDiv {
+        top: 333px;
+        left: 253px;
+    }
+} /* * 1,33 */
+
+@media (min-height: 2160px) { 
+    #hunting {
+        height: 625px;
+        width: 1050px;
+    }
+    
+    #hunting .title {
+        top: 0px;
+        font-size: 69px;
+        width: 339px;
+    }
+    
+    #hunting .subtitle {
+        top: 507px;
+        font-size: 26px;
+        left: 72px;
+    }
+    
+    #hunting .secRow {
+        left: 705px;
+    }
+    
+    #hunting .value {
+        font-size: 39px;
+    }
+    
+    #hunting .middleRow {
+        left: 427px;
+    }
+    
+    #hu_nameDiv {
+        top: 203px
+    }
+    
+    #hu_addressDiv {
+        top: 277px
+    }
+    
+    #hu_dobDiv {
+        top: 345px
+    }
+    
+    #hu_stampDiv {
+        top: 375px;
+    }
+    
+    #hu_signDiv {
+        top: 500px;
+        left: 380px;
+    }
+} /* * 1,5 */ 

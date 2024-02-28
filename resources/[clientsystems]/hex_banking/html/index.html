@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>by Henrick</title>
+</head>
+<body>
+    <main>
+        <div class="main__hex-container" style="display: none;">
+            <div class="main__hex-banking-container">
+                <div class="main__hex-banking-header">
+                    <div class="main__hex-banking-header-left-container">
+                        <div class="main__hex-banking-header-left-big">
+                            <p>Banking</p>
+                        </div>
+                        <div class="main__hex-banking-header-left-small">
+                            <p>Los Santos</p>
+                        </div>
+                    </div>
+                    <div class="main__hex-banking-header-right-container">
+                        <div class="main__hex-banking-header-right-personal">
+                            <div class="main__hex-banking-header-right-personal-left">
+                                <p id="playerName">Romario Richardson</p>
+                                <p id="playerMoney">$6.781</p>
+                            </div>
+                            <div class="main__hex-banking-header-right-personal-right">
+                                <img src="https://cdn.leon1337.host/attachments/kqvy7.png" id="playerImg">
+                            </div>
+                        </div>
+                        <div class="main__hex-banking-header-right-close" id="closeButton">
+                            <i class="fa-thin fa-xmark"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__hex-banking-top-grid">
+                    <div class="main__hex-banking-top-grid-left-container">
+                        <div class="main__hex-banking-top-grid-left-card-container">
+                            <div class="main__hex-banking-top-grid-left-card-bg-container">
+                                <div class="main__hex-banking-top-grid-left-car-bg-sphere-1"></div>
+                                <div class="main__hex-banking-top-grid-left-car-bg-sphere-2"></div>
+                                <div class="main__hex-banking-top-grid-left-car-bg-sphere-3"></div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-car-header">
+                                <div class="main__hex-banking-top-grid-left-card-header-left">
+                                    <i class="fa-regular fa-building-columns"></i>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-card-header-right">
+                                    <p>Lion Roleplay</p>
+                                    <p>Bank</p>
+                                </div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-card-iban-container">
+                                <div class="main__hex-banking-top-grid-left-card-iban-header">
+                                    <p>iban</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-card-iban-text">
+                                    <p>2815 7931 8711 2411</p>
+                                </div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-card-bottom-information-container">
+                                <div class="main__hex-banking-top-grid-left-card-bottom-information-left-container">
+                                    <div class="main__hex-banking-top-grid-left-card-bottom-information-header">
+                                        <p>Card Holder</p>
+                                    </div>
+                                    <div class="main__hex-banking-top-grid-left-card-bottom-information-text" id="cardHolder">
+                                        <p>Romario R.</p>
+                                    </div>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-card-bottom-information-right-container">
+                                    <div class="main__hex-banking-top-grid-left-card-bottom-information-header">
+                                        <p>Gültig Bis</p>
+                                    </div>
+                                    <div class="main__hex-banking-top-grid-left-card-bottom-information-text">
+                                        <p>12/25</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-card-img-top">
+                                <img src="img/card.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="main__hex-banking-top-grid-left-scroll-container" style="display: flex;">
+                            <div class="main__hex-banking-top-grid-left-scroll-item">
+                                <div class="main__hex-banking-top-grid-left-scroll-item-left-container withdraw">
+                                    <p>Money withdraw</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-middle-container">
+                                    <p>ID:666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-right-container">
+                                    <p>$666.666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-square"></div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-scroll-item">
+                                <div class="main__hex-banking-top-grid-left-scroll-item-left-container deposit">
+                                    <p>Money deposit</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-middle-container">
+                                    <p>ID:666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-right-container">
+                                    <p>$666.666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-square"></div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-scroll-item">
+                                <div class="main__hex-banking-top-grid-left-scroll-item-left-container withdraw">
+                                    <p>Money withdraw</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-middle-container">
+                                    <p>ID:666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-right-container">
+                                    <p>$666.666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-square"></div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-scroll-item">
+                                <div class="main__hex-banking-top-grid-left-scroll-item-left-container withdraw">
+                                    <p>Money withdraw</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-middle-container">
+                                    <p>ID:666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-right-container">
+                                    <p>$666.666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-square"></div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-scroll-item">
+                                <div class="main__hex-banking-top-grid-left-scroll-item-left-container withdraw">
+                                    <p>Money withdraw</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-middle-container">
+                                    <p>ID:666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-right-container">
+                                    <p>$666.666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-square"></div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-scroll-item">
+                                <div class="main__hex-banking-top-grid-left-scroll-item-left-container withdraw">
+                                    <p>Money withdraw</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-middle-container">
+                                    <p>ID:666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-right-container">
+                                    <p>$666.666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-square"></div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-scroll-item">
+                                <div class="main__hex-banking-top-grid-left-scroll-item-left-container withdraw">
+                                    <p>Money withdraw</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-middle-container">
+                                    <p>ID:666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-right-container">
+                                    <p>$666.666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-square"></div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-scroll-item">
+                                <div class="main__hex-banking-top-grid-left-scroll-item-left-container withdraw">
+                                    <p>Money withdraw</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-middle-container">
+                                    <p>ID:666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-right-container">
+                                    <p>$666.666</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-scroll-item-square"></div>
+                            </div>
+                        </div>
+
+                        <div class="main__hex-banking-top-grid-left-deposit-container" id="depositPage" style="display: none;">
+                            <div class="main__hex-banking-top-grid-left-deposit-header">
+                                <p>Einzahlen</p>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-deposit-text">
+                                <p>Hier kannst du sicher Geld einzahlen. Das Geld wird dir binnen Sekunden auf dein Konto gutgeschrieben und du kannst dein Konto weltweit für Transaktionen nutzen.</p>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-deposit-input-container">
+                                <div class="main__hex-banking-top-grid-left-deposit-input-left-container">
+                                    <p>Menge</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-deposit-input-right-container">
+                                    <input type="text" id="depositInput" placeholder="0$">
+                                </div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-btn-container">
+                                <div class="main__hex-banking-top-grid-left-btn-done" data-type="deposit">
+                                    <p>Bestätigen</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-btn-cancel">
+                                    <p>Abbrechen</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__hex-banking-top-grid-left-deposit-container" id="withdrawPage" style="display: none;">
+                            <div class="main__hex-banking-top-grid-left-deposit-header">
+                                <p>Auszahlen</p>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-deposit-text">
+                                <p>Hier kannst du sicher Geld einzahlen. Das Geld wird dir binnen Sekunden auf dein Konto gutgeschrieben und du kannst dein Konto weltweit für Transaktionen nutzen.</p>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-deposit-input-container">
+                                <div class="main__hex-banking-top-grid-left-deposit-input-left-container">
+                                    <p>Menge</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-deposit-input-right-container">
+                                    <input type="text" id="withdrawInput" placeholder="0$">
+                                </div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-btn-container">
+                                <div class="main__hex-banking-top-grid-left-btn-done" data-type="withdraw">
+                                    <p>Bestätigen</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-btn-cancel">
+                                    <p>Abbrechen</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__hex-banking-top-grid-left-deposit-container" id="transferPage" style="display: none;">
+                            <div class="main__hex-banking-top-grid-left-deposit-header">
+                                <p>Überweisen</p>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-deposit-text">
+                                <p>Hier kannst du sicher Geld einzahlen. Das Geld wird dir binnen Sekunden auf dein Konto gutgeschrieben und du kannst dein Konto weltweit für Transaktionen nutzen.</p>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-deposit-input-container transactionheader">
+                                <div class="main__hex-banking-top-grid-left-deposit-input-left-container">
+                                    <p>Spieler Id</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-deposit-input-right-container">
+                                    <input type="text" id="targetId" placeholder="123">
+                                </div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-deposit-input-container transaction">
+                                <div class="main__hex-banking-top-grid-left-deposit-input-left-container">
+                                    <p>Menge</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-deposit-input-right-container">
+                                    <input type="text" id="transferInput" placeholder="0$">
+                                </div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-left-btn-container">
+                                <div class="main__hex-banking-top-grid-left-btn-done" data-type="transfer">
+                                    <p>Überweisen</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-left-btn-cancel">
+                                    <p>Abbrechen</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__hex-banking-top-grid-right-container">
+                        <div class="main__hex-banking-top-grid-right-btn-container">
+                            <div class="main__hex-banking-top-grid-right-btn-item" data-type="deposit">
+                                <div class="main__hex-banking-top-grid-right-btn-icon">
+                                    <i class="fa-regular fa-comments-dollar"></i>
+                                </div>
+                                <div class="main__hex-banking-top-grid-right-btn-item-header">
+                                    <p>Einzahlen</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-right-btn-item-square"></div>
+                                <div class="main__hex-banking-top-grid-right-btn-bg"></div>
+                                <div class="main__hex-banking-top-grid-right-btn-bg-2"></div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-right-btn-item" data-type="withdraw">
+                                <div class="main__hex-banking-top-grid-right-btn-icon">
+                                    <i class="fa-regular fa-money-bill-transfer"></i>
+                                </div>
+                                <div class="main__hex-banking-top-grid-right-btn-item-header">
+                                    <p>Auszahlen</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-right-btn-item-square"></div>
+                                <div class="main__hex-banking-top-grid-right-btn-bg"></div>
+                                <div class="main__hex-banking-top-grid-right-btn-bg-2"></div>
+                            </div>
+                            <div class="main__hex-banking-top-grid-right-btn-item" data-type="transfer">
+                                <div class="main__hex-banking-top-grid-right-btn-icon">
+                                    <i class="fa-regular fa-hand-holding-dollar"></i>
+                                </div>
+                                <div class="main__hex-banking-top-grid-right-btn-item-header">
+                                    <p>Überweisen</p>
+                                </div>
+                                <div class="main__hex-banking-top-grid-right-btn-item-square"></div>
+                                <div class="main__hex-banking-top-grid-right-btn-bg"></div>
+                                <div class="main__hex-banking-top-grid-right-btn-bg-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="main__hex-banking-top-grid-right-graph-container">
+                            <div class="main__hex-banking-top-grid-right-graph-header">
+                                <p>Graphic of Transactions</p>
+                            </div>
+                            <div class="main__hex-banking-top-grid-right-graph-img">
+                                <img src="img/graph.svg" alt="">
+                            </div>
+                            <div class="main__hex-banking-top-grid-right-graph-square"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main__hex-banking-bottom-grid">
+                    <div class="main__hex-banking-bottom-grid-item">
+                        <div class="main__hex-banking-bottom-grid-item-header-icon">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="main__hex-banking-bottom-grid-item-bottom-container">
+                            <div class="main__hex-banking-bottom-grid-item-bottom-header" id="todayDeposit">
+                                <p>$654,000,000</p>
+                            </div>
+                            <div class="main__hex-banking-bottom-grid-item-bottom-text">
+                                <p>Heute Einzahlungen</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__hex-banking-bottom-grid-item">
+                        <div class="main__hex-banking-bottom-grid-item-header-icon">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="main__hex-banking-bottom-grid-item-bottom-container">
+                            <div class="main__hex-banking-bottom-grid-item-bottom-header" id="todayWithdraw">
+                                <p>0$</p>
+                            </div>
+                            <div class="main__hex-banking-bottom-grid-item-bottom-text">
+                                <p>Heute Auszahlungen</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__hex-banking-bottom-grid-item">
+                        <div class="main__hex-banking-bottom-grid-item-header-icon">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <div class="main__hex-banking-bottom-grid-item-bottom-container">
+                            <div class="main__hex-banking-bottom-grid-item-bottom-header" id="todayTransfer">
+                                <p>0$</p>
+                            </div>
+                            <div class="main__hex-banking-bottom-grid-item-bottom-text">
+                                <p>Heute Überweisungen</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/57b9d31625.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+:root {
+    /* https://cssgradient.io/ */
+
+    /* main contianer */
+    --container-background:  radial-gradient(40.93% 40.93% at 50% 97.5%, rgba(33, 105, 134, 0.0528) 4.88%, rgba(255, 255, 255, 0) 100%), radial-gradient(46.28% 146.26% at 96.28% 60.79%, rgba(33, 105, 134, 0.16) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(76.46% 241.65% at 5.23% 8.7%, rgba(33, 105, 134, 0.16) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(60.37% 60.37% at 50% 50%, rgba(18, 20, 27, 0) 0%, #12141B 100%), rgba(18, 20, 27, 0.48); 
+    --container-background-warehouse: radial-gradient(40.93% 40.93% at 50% 97.5%, rgba(33, 105, 134, 0.0528) 4.88%, rgba(255, 255, 255, 0) 100%), radial-gradient(46.28% 146.26% at 96.28% 60.79%, rgba(33, 105, 134, 0.16) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(76.46% 241.65% at 5.23% 8.7%, rgba(33, 105, 134, 0.16) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(60.37% 60.37% at 50% 50%, rgba(18, 20, 27, 0) 0%, #12141B 100%), rgba(18, 20, 27, 0.48) !important;
+    --container-background-popup-menu : radial-gradient(40.93% 40.93% at 50% 97.5%, rgba(33, 105, 134, 0.066) 4.88%, rgba(255, 255, 255, 0) 100%), radial-gradient(46.28% 146.26% at 96.28% 60.79%, rgba(33, 105, 134, 0.2) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(76.46% 241.65% at 5.23% 8.7%, rgba(33, 105, 134, 0.2) 0%, rgba(0, 0, 0, 0) 100%), #12141B;
+    --container-border-main-color: rgba(255, 255, 255, 0.08);
+    --container-option-background: rgba(255, 255, 255, 0.04);
+    --container-actions-background: #1F77B1;
+    --container-btns-background: rgba(255, 255, 255, 0.06);
+    --container-btns-hover-background: rgba(31, 119, 177, 0.64);
+    --container-btns-boxshadow: rgba(31, 119, 177, 0.3);
+
+    /* other shadows */
+    --container-line-shadow: rgba(31, 119, 177, 0.4);
+
+    /* font colors */
+    --font-main-white-color: #FFFFFF;
+    --font-second-color: rgba(255, 255, 255, 0.32);
+    --font-price-color: #65BC6A;
+    --font-price-color-shadow: rgba(101, 188, 106, 0.24);
+}

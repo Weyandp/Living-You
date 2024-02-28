@@ -1,0 +1,28 @@
+@font-face { 
+  font-family: 'Black';
+  src: url('../fonts/PPMonumentExtended-Black.ttf');
+}
+@font-face { 
+  font-family: 'Bold';
+  src: url('../fonts/PPMonumentExtended-Bold.ttf');
+}
+@font-face { 
+  font-family: 'Medium';
+  src: url('../fonts/PPMonumentExtended-Medium.ttf');
+}
+@font-face { 
+  font-family: 'Regular';
+  src: url('../fonts/PPMonumentExtended-Regular.ttf');
+}
+@font-face { 
+  font-family: 'SemiBold';
+  src: url('../fonts/PPMonumentExtended-SemiBold.ttf');
+}
+@font-face { 
+  font-family: 'Book';
+  src: url('../fonts/PPMonumentExtended-Book.ttf');
+}
+@font-face { 
+  font-family: Monument Extended;
+  src: url('../fonts/MonumentExtended-Regular.otf');
+}  
