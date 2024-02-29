@@ -1,0 +1,1036 @@
+#Next-BOT
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                              Wichtige Sachen!
+#  Activated   disabled                                                                ↓
+
+#Hier findest du eine Liste von den ganzen Emojis die es gibt ----> https://emojipedia.org/
+
+#Hier musst du den Token von dem Bot den du über die Discord API bekommst eintragen!
+#                                      ↓
+token:MTIwODQzNDMwNTg1MzAzODcxMw.Gy-1p0.pF6cn3ymhZMT1omAMPlPMPHkW5EaqjpxADf57Q
+
+#Hier kannst du das Logo vom Bot ändern
+#                        ↓
+logo: https://next-bots.eu/assets/logo/Animated.gif
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                      Hier kannst du den Status vom Bot ändern
+#                                                          ↓
+playingGame: 'Living-You'
+changeplayingGame: enabled
+playingGames: 'Living-You RP'
+playingGameschangetime: 6000
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                        Hier kannst du den Text von den NoPerms ändern
+#                                                            ↓ 
+noperms-title: 'Keine Rechte'
+noperms-message: 'Dazu hast du keine Rechte.'
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                  (Join Message) Config
+#                                                           ↓
+join-message: enabled
+join-message-author-string: ''
+join-message-author-url: ''
+join-message-author-urlicon: %logo%
+join-message-description: null
+join-message-title: 'Hallo %name%'
+join-message-string: 'Herzlich Willkommen \nauf dem offiziellen Discord Server von Living-You\n\n Bei Fragen oder Problemen,\nöffne gerne ein Ticket \n\n**Mit freundlichen Grüßen,**\nDein **Living-you Team**'
+join-message-thumbmail: '%useravatar%'
+join-message-image: null
+join-message-footer: %name%
+join-message-footer-urlicon: %useravatar%
+join-message-color: MAGENTA
+join-message-channelid: 1150915286103511116
+
+join-rank: null
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                  (Leave Message) Config
+#                                                           ↓
+leave-message: enabled
+leave-message-description: '**%name% hat den Discord verlassen**'
+leave-message-title: 'Tschüss %name%'
+leave-message-string: 'Komm bald wieder, \nDein **Living-You Team**'
+leave-message-thumbmail: '%useravatar%'
+leave-message-image: null
+leave-message-footer: null
+leave-message-color: RED
+leave-message-channelid: 1210599009975279768
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                  (Accept Rules) Config
+#                                                            ↓
+accept-rules: enabled
+accept-rules-messageid: 1208129446100607087
+accept-rules-roleid: 1150915285365293084
+accept-rules-emoji: ✅
+accept-rules-accepteveryemoji: enabled
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                   (Create Private Channel) Config
+#                                                               ↓
+createprivatechannel: disabled
+createprivatechannel-channeljoinedid: 975887881371516959
+createprivatechannel-categoryid: 975887766070116405
+createprivatechannel-channelname: '%name%'
+
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                      (Support Notify) Config
+#                                                                ↓
+support-notify-1: enabled
+support-notify-1-createchannel: enabled
+support-notify-1-channeljoinedid: 1150915287772835888
+support-notify-1-categoryid: 1150915287772835882
+support-notify-1-channelid: 1210973479609040997
+support-notify-1-roleid: 1150915285365293085
+support-notify-1-channel-name: 'Support × %name%'
+support-notify-1-notifyrole: 1150915285495316581
+support-notify-1-message: '%mentioned% wartet auf Support. %supportnotifyrole%'
+support-notify-1-delete-notify-message: disabled
+
+#                                                      (Support Notify 2) Config
+#                                                                ↓
+support-notify-2: disabled
+support-notify-2-createchannel: disabled
+support-notify-2-channeljoinedid: 982046150821572649
+support-notify-2-categoryid: 975889272454389810
+support-notify-2-channelid: 995430550733062186
+support-notify-2-roleid: 974312135087751193
+support-notify-2-channel-name: 'Test × %name%'
+support-notify-2-notifyrole: 974312135247163436
+support-notify-2-message: '%mentioned% wartet auf Support. %supportnotifyrole%'
+support-notify-2-delete-notify-message: disabled
+
+#                                                      (Support Notify 3) Config
+#                                                                ↓
+support-notify-3: disabled
+support-notify-3-createchannel: disabled
+support-notify-3-channeljoinedid: 975889373063176272
+support-notify-3-categoryid: 975889272454389810
+support-notify-3-channelid: 974312135712727123
+support-notify-3-roleid: 974312135087751193
+support-notify-3-channel-name: 'Support × %name%'
+support-notify-3-notifyrole: 974312135247163436
+support-notify-3-message: '%mentioneduser% wartet auf Support. %supportnotifyrole%'
+support-notify-3-delete-notify-message: disabled
+
+#                                                      (Support Notify 4) Config
+#                                                                ↓
+support-notify-4: disabled
+support-notify-4-createchannel: disabled
+support-notify-4-channeljoinedid: 975889373063176272
+support-notify-4-categoryid: 975889272454389810
+support-notify-4-channelid: 974312135712727123
+support-notify-4-roleid: 974312135087751193
+support-notify-4-channel-name: 'Support × %name%'
+support-notify-4-notifyrole: 974312135247163436
+support-notify-4-message: '%mentioneduser% wartet auf Support. %supportnotifyrole%'
+support-notify-4-delete-notify-message: disabled
+
+#                                                      (Support Notify 5) Config
+#                                                                ↓
+support-notify-5: disabled
+support-notify-5-createchannel: disabled
+support-notify-5-channeljoinedid: 975889373063176272
+support-notify-5-categoryid: 975889272454389810
+support-notify-5-channelid: 974312135712727123
+support-notify-5-roleid: 974312135087751193
+support-notify-5-channel-name: 'Support × %name%'
+support-notify-5-notifyrole: 974312135247163436
+support-notify-5-message: '%mentioneduser% wartet auf Support. %supportnotifyrole%'
+support-notify-5-delete-notify-message: disabled
+
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                Diese Einstellungen sind für die Commands die nur ab der Rolle Moderation sind
+#                                                      (Transfermessage) Config
+#                                                                ↓
+transfermessage-1: disabled
+transfermessage-1-channelid: 994976782786764811
+transfermessage-1-newchannelid: 994976800587403356
+transfermessage-1-deleteoldmessage: disabled
+transfermessage-1-description: null
+transfermessage-1-title: 'Abmeldung von %name%'
+transfermessage-1-string: '%message%'
+transfermessage-1-color: BLUE
+
+#                                                      (Transfermessage 2) Config
+#                                                                ↓
+transfermessage-2: disabled
+transfermessage-2-channelid: 994976782786764811
+transfermessage-2-newchannelid: 994976800587403356
+transfermessage-2-deleteoldmessage: disabled
+transfermessage-2-description: null
+transfermessage-2-title: 'Abmeldung von %name%'
+transfermessage-2-string: '%message%'
+transfermessage-2-color: BLUE
+
+#                                                      (Transfermessage 3) Config
+#                                                                ↓
+transfermessage-3: disabled
+transfermessage-3-channelid: 994976782786764811
+transfermessage-3-newchannelid: 994976800587403356
+transfermessage-3-deleteoldmessage: disabled
+transfermessage-3-description: null
+transfermessage-3-title: 'Abmeldung von %name%'
+transfermessage-3-string: '%message%'
+transfermessage-3-color: BLUE
+
+#                                                      (Transfermessage 4) Config
+#                                                                ↓
+transfermessage-4: disabled
+transfermessage-4-channelid: 994976782786764811
+transfermessage-4-newchannelid: 994976800587403356
+transfermessage-4-deleteoldmessage: disabled
+transfermessage-4-description: null
+transfermessage-4-title: 'Abmeldung von %name%'
+transfermessage-4-string: '%message%'
+transfermessage-4-color: BLUE
+
+#                                                      (Clear Command) Config
+#                                                                ↓
+clear-command: enabled
+clear-command-argument: !clear
+clear-command-permissionroleid: 1151841797497163907
+clear-command-usage-title: 'Clearcommand'
+clear-command-usage-message: 'Nutze **!clear <Zahl>**'
+clear-command-success-title: 'Nachrichten entfernt.'
+clear-command-success-message: 'Du hast erfolgreich **%clearcount%** Nachrichten entfernt.'
+
+#                                                      (Lock Command) Config
+#                                                                ↓
+lock-command: enabled
+lock-command-argument: !lock
+lock-command-permissionroleid: 1151841797497163907
+lock-command-usage-title: 'Lockcommand'
+lock-command-usage-message: 'Nutze **!lock**'
+lock-command-success-title: 'Channel gesperrt'
+lock-command-success-message: 'Der Channel wurde von **%name%** gesperrt.'
+
+#                                                      (Unlock Command) Config
+#                                                                ↓
+unlock-command: enabled
+unlock-command-argument: !unlock
+unlock-command-permissionroleid: 1151841797497163907
+unlock-command-usage-title: 'Unlockcommand'
+unlock-command-usage-message: 'Nutze **!unlock**'
+unlock-command-success-title: 'Channel freigeschaltet'
+unlock-command-success-message: 'Der Channel wurde von **%name%** freigeschaltet.'
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                         (Blacklisted Words) Config
+#                                                                     ↓
+blacklistedwords: disabled
+blacklistedwords-string: 'nigga, hurensohn, hure, nutte, bastard, toten'
+#Actions: onlydelete, kick, ban, mute
+blacklistedwords-action: onlydelete
+blacklistedwords-logs-channel: 1150915289689641041
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                         (Ban Command) Config
+#                                                                     ↓
+ban-command: disabled
+ban-command-argument: ban
+ban-command-description: 'Nutze diesen Command um User zu bannen.'
+ban-command-permissionroleid: 544654165465465465
+ban-command-checkifbanpermissioninrole: disabled
+ban-command-cannotbanhighermember: disabled
+ban-command-reason: '%reason% - %name%'
+ban-command-noreason: 'Kein Grund angegeben'
+ban-command-logs: disabled
+ban-command-logs-channelid: 974312135712727127
+ban-command-message-title: 'User gebannt!'
+ban-command-message-string: 'Der User %targetname% wurde von %name% gebannt.'
+ban-command-message-color: RED
+ban-command-message-image: null
+ban-command-message-thumbmail: null
+ban-command-message-footer: null
+ban-command-cannotbanhigher-message-title: 'Fehler'
+ban-command-cannotbanhigher-message-string: 'Du kannst keinen höheren User bannen!'
+ban-command-cannotbanhigher-message-color: ORANGE
+ban-command-cannotbanhigher-message-image: null
+ban-command-cannotbanhigher-message-thumbmail: null
+ban-command-cannotbanhigher-message-footer: null
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                         (Kick Command) Config
+#                                                                     ↓
+kick-command: disabled
+kick-command-argument: kick
+kick-command-description: 'Nutze diesen Command um User zu kicken.'
+kick-command-permissionroleid: 544654165465465465
+kick-command-checkifkickpermissioninrole: disabled
+kick-command-cannotkickhighermember: disabled
+kick-command-reason: '%reason% - %name%'
+kick-command-noreason: 'Kein Grund angegeben'
+kick-command-logs: disabled
+kick-command-logs-channelid: 974312135712727127
+kick-command-message-title: 'User gekickt!'
+kick-command-message-string: 'Der User %targetname% wurde von %name% gekickt.'
+kick-command-message-color: RED
+kick-command-message-image: null
+kick-command-message-thumbmail: null
+kick-command-message-footer: null
+kick-command-cannotkickhigher-message-title: 'Fehler'
+kick-command-cannotkickhigher-message-string: 'Du kannst keinen höheren User kicken!'
+kick-command-cannotkickhigher-message-color: ORANGE
+kick-command-cannotkickhigher-message-image: null
+kick-command-cannotkickhigher-message-thumbmail: null
+kick-command-cannotkickhigher-message-footer: null
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                         (Mute Command) Config
+#                                                                     ↓
+mute-command: disabled
+mute-command-argument: mute
+mute-command-description: 'Nutze diesen Command um User zu muten.'
+mute-command-permissionroleid: 982310570286014495
+mute-command-mutedroleid: 974312134752235617
+mute-command-cannotmutehighermember: disabled
+mute-command-reason: '%reason% - %name%'
+mute-command-noreason: 'Kein Grund angegeben'
+mute-command-logs: disabled
+mute-command-logs-channelid: 992439211443638342
+mute-command-message-title: 'User gemuted!'
+mute-command-message-string: 'Der User %targetname% wurde von %name% gemuted.'
+mute-command-message-color: RED
+mute-command-message-image: null
+mute-command-message-thumbmail: null
+mute-command-message-footer: null
+mute-command-cannotmutehigher-message-title: 'Fehler'
+mute-command-cannotmutehigher-message-string: 'Du kannst keinen höheren User muten!'
+mute-command-cannotmutehigher-message-color: ORANGE
+mute-command-cannotmutehigher-message-image: null
+mute-command-cannotmutehigher-message-thumbmail: null
+mute-command-cannotmutehigher-message-footer: null
+mute-command-usage: 'Usage: **!mute @User 3h/2d/... Grund**'
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                         (Unmute Command) Config
+#                                                                     ↓
+unmute-command: disabled
+unmute-command-argument: unmute
+unmute-command-description: 'Nutze diesen Command um User zu unmuten.'
+unmute-command-permissionroleid: 544654165465465465
+unmute-command-cannotunmutehighermember: disabled
+unmute-command-reason: '%reason% - %name%'
+unmute-command-noreason: 'Kein Grund angegeben'
+unmute-command-logs: disabled
+unmute-command-logs-channelid: 992439211443638342
+unmute-command-message-title: 'User gemuted!'
+unmute-command-message-string: 'Der User %targetname% wurde von %name% entmuted.'
+unmute-command-message-color: GREEN
+unmute-command-message-image: null
+unmute-command-message-thumbmail: null
+unmute-command-message-footer: null
+unmute-command-cannotmutehigher-message-title: 'Fehler'
+unmute-command-cannotmutehigher-message-string: 'Du kannst keinen höheren User unmuten!'
+unmute-command-cannotmutehigher-message-color: ORANGE
+unmute-command-cannotmutehigher-message-image: null
+unmute-command-cannotmutehigher-message-thumbmail: null
+unmute-command-cannotmutehigher-message-footer: null
+unmute-command-notmuted-message-title: 'Fehler'
+unmute-command-notmuted-message-string: 'Der User ist nicht gemuted!'
+unmute-command-notmuted-message-color: ORANGE
+unmute-command-notmuted-message-image: null
+unmute-command-notmuted-message-thumbmail: null
+unmute-command-notmuted-message-footer: null
+unmute-command-usage: 'Usage: **!unmute @User'
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                         (Addreaction Command) Config
+#                                                                     ↓
+addreaction-command: disabled
+addreaction-command-argument: !addreaction
+addreaction-command-permissionroleid: 982310570286014495
+#                                                                           Hier kannst du den Reaction Emoji ändern
+#                                                                                             ↓
+addreaction-command-usage: '**!addreaction (MessageID) (Emoji)**   Emoji von: https://emojipedia.org/ und im gleichen Textchannel ausführen!'
+
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                         (Logs) Config
+#                                                               ↓
+log-channelid: 1150915289689641041
+log-leave: enabled
+log-join: enabled
+log-message: enabled
+log-message-edited: enabled
+log-message-deleted: enabled
+log-addrole: enabled
+log-removerole: enabled
+log-joinvoicechannel: enabled
+log-leavevoicechannel: enabled
+log-createchannel: enabled
+log-deletechannel: enabled
+log-updatechannel: enabled
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                             (Reaction Message) Config
+#                                                                        ↓
+reaction-1: disabled
+reaction-1-messageid: 982050251122831412
+reaction-1-emoji: 🔷
+reaction-1-addrole: disabled
+reaction-1-addrole-roleid: 974312135163265039
+reaction-1-removerole: disabled
+reaction-1-removerole-roleid: 974312135163265039
+
+#                                                             (Reaction Message 2) Config
+#                                                                        ↓
+reaction-2: disabled
+reaction-2-messageid: 982050251122831412
+reaction-2-emoji: 🔷
+reaction-2-addrole: disabled
+reaction-2-addrole-roleid: 974312135163265039
+reaction-2-removerole: disabled
+reaction-2-removerole-roleid: 974312135163265039
+#                                                             (Reaction Message 3) Config
+#                                                                        ↓
+reaction-3: disabled
+reaction-3-messageid: 982050251122831412
+reaction-3-emoji: 🔷
+reaction-3-addrole: disabled
+reaction-3-addrole-roleid: 974312135163265039
+reaction-3-removerole: disabled
+reaction-3-removerole-roleid: 974312135163265039
+
+#                                                             (Reaction Message 4) Config
+#                                                                        ↓
+reaction-4: disabled
+reaction-4-messageid: 982050251122831412
+reaction-4-emoji: 🔷
+reaction-4-addrole: disabled
+reaction-4-addrole-roleid: 974312135163265039
+reaction-4-removerole: disabled
+reaction-4-removerole-roleid: 974312135163265039
+
+#                                                             (Reaction Message 5) Config
+#                                                                        ↓
+reaction-5: disabled
+reaction-5-messageid: 982050251122831412
+reaction-5-emoji: 🔷
+reaction-5-addrole: disabled
+reaction-5-addrole-roleid: 974312135163265039
+reaction-5-removerole: disabled
+reaction-5-removerole-roleid: 974312135163265039
+
+#                                                             (Reaction Message 6) Config
+#                                                                        ↓
+reaction-6: disabled
+reaction-6-messageid: 982050251122831412
+reaction-6-emoji: 🔷
+reaction-6-addrole: disabled
+reaction-6-addrole-roleid: 974312135163265039
+reaction-6-removerole: disabled
+reaction-6-removerole-roleid: 974312135163265039
+#                                                             (Reaction Message 7) Config
+#                                                                        ↓
+reaction-7: disabled
+reaction-7-messageid: 982050251122831412
+reaction-7-emoji: 🔷
+reaction-7-addrole: disabled
+reaction-7-addrole-roleid: 974312135163265039
+reaction-7-removerole: disabled
+reaction-7-removerole-roleid: 974312135163265039
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                             (Server Stats) Config
+#                                                                       ↓
+#Möglich: %membercount%, %botcount%, %teamcount% %teamonlinecount% %onlinemember% (Bei %onlinemember% und %teamonlinecount% kann es zu Delays beim Updaten kommen)
+stats-channel-teamroleid: 1150915285465976868
+stats-update-time: 60000
+
+#                                                             (Server Stats 1) Config
+#                                                                       ↓
+stats-channel-1: enabled
+stats-channel-1-channelid: 1210980627025764392
+stats-channel-1-name: 'Mitglieder: %membercount%'
+
+#                                                             (Server Stats 2) Config
+#                                                                       ↓
+stats-channel-2: enabled
+stats-channel-2-channelid: 1210982066171158688
+stats-channel-2-name: 'Teamler online: %teamonlinecount%'
+
+#                                                             (Server Stats 3) Config
+#                                                                       ↓
+stats-channel-3: disabled
+stats-channel-3-channelid: 1210960939990392833
+stats-channel-3-name: 'Mitglieder online: %onlinemember%'
+
+#                                                             (Server Stats 4) Config
+#                                                                       ↓
+stats-channel-4: disabled
+stats-channel-4-channelid: 975889373063176272
+stats-channel-4-name: 'Mitglieder: %membercount%'
+
+#                                                             (Server Stats 5) Config
+#                                                                       ↓
+stats-channel-5: disabled
+stats-channel-5-channelid: 975889373063176272
+stats-channel-5-name: 'Mitglieder: %membercount%'
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                             (Suggestion) Config
+#                                                                       ↓
+suggestion-channel-1: disabled
+suggestion-channel-1-channelid: 990652101451460628
+suggestion-channel-1-description: null
+suggestion-channel-1-message-title: 'Vorschlag von %name%'
+suggestion-channel-1-message-string: '%message%'
+suggestion-channel-1-footer: null
+suggestion-channel-1-color: BLUE
+suggestion-channel-1-image: null
+suggestion-channel-1-thumbmail: null
+suggestion-channel-1-useconfigreactions: disabled
+suggestion-channel-1-reaction-yes: 👍
+suggestion-channel-1-reaction-no: 👎
+
+#                                                             (Suggestion 2) Config
+#                                                                       ↓
+suggestion-channel-2: disabled
+suggestion-channel-2-channelid: 1000493971589582898
+suggestion-channel-2-description: null
+suggestion-channel-2-message-title: 'Vorschlag von %name%'
+suggestion-channel-2-message-string: '%message%'
+suggestion-channel-2-footer: null
+suggestion-channel-2-color: BLUE
+suggestion-channel-2-image: null
+suggestion-channel-2-thumbmail: null
+suggestion-channel-2-useconfigreactions: disabled
+suggestion-channel-2-reaction-yes: 👍
+suggestion-channel-2-reaction-no: 👎
+
+#                                                             (Suggestion 3) Config
+#                                                                       ↓
+suggestion-channel-3: disabled
+suggestion-channel-3-channelid: 974312136056643614
+suggestion-channel-3-description: null
+suggestion-channel-3-message-title: 'Vorschlag von %name%'
+suggestion-channel-3-message-string: '%message%'
+suggestion-channel-3-footer: null
+suggestion-channel-3-color: BLUE
+suggestion-channel-3-image: null
+suggestion-channel-3-thumbmail: null
+suggestion-channel-3-useconfigreactions: disabled
+suggestion-channel-3-reaction-yes: 👍
+suggestion-channel-3-reaction-no: 👎
+
+#                                                             (Suggestion 4) Config
+#                                                                       ↓
+suggestion-channel-4: disabled
+suggestion-channel-4-channelid: 974312136056643614
+suggestion-channel-4-description: null
+suggestion-channel-4-message-title: 'Vorschlag von %name%'
+suggestion-channel-4-message-string: '%message%'
+suggestion-channel-4-footer: null
+suggestion-channel-4-color: BLUE
+suggestion-channel-4-image: null
+suggestion-channel-4-thumbmail: null
+suggestion-channel-4-useconfigreactions: disabled
+suggestion-channel-4-reaction-yes: 👍
+suggestion-channel-4-reaction-no: 👎
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                               (Captcha) Config
+#                                                                       ↓
+verify: disabled
+verify-command-description: 'Dieser Befehl verifiziert dich.'
+verify-rank: 974312135163265036
+verify-description: null
+verify-title: 'Discord Verifizierung'
+verify-string: '``Um dich zu verifizieren, nutze /verify (Code auf dem Bild).``'
+verify-thumbmail: 
+verify-color: WHITE
+
+verify-alreadyverified-title: 'Du bist bereits verifiziert!'
+verify-alreadyverified-string: 'Hey %mentioned%, du bist bereits verifiziert!'
+verify-alreadyverified-thumbmail: null
+verify-alreadyverified-color: RED
+
+verify-successful-title: 'Du wurdest verifiziert'
+verify-successful-string: 'Hey %mentioned%, du wurdest erfolgreich verifiziert!'
+verify-successful-thumbmail: null
+verify-successful-color: GREEN
+
+verify-wrongcode-title: 'Falscher Code'
+verify-wrongcode-string: 'Hey %mentioned%, du hast den falschen Code angegeben. Versuche es erneut!'
+verify-wrongcode-thumbmail: null
+verify-wrongcode-color: RED
+
+#                             Hier kannst du die Bilder für das Captcha ändern
+#                                                       ↓
+verify-pic-1: 'pC3P4O'
+verify-pic-1-image: 'https://s20.directupload.net/images/221024/a5ggrrf9.png'
+verify-pic-2: 'O8iU5'
+verify-pic-2-image: 'https://s20.directupload.net/images/221024/ia5o4qqa.png'
+verify-pic-3: 'It8p3f'
+verify-pic-3-image: 'https://s20.directupload.net/images/221025/u5felvwl.png'
+verify-pic-4: '8ijrag'
+verify-pic-4-image: 'https://s20.directupload.net/images/221025/nnegbgm3.png'
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                               (Giveaway) Config
+#                                                                       ↓
+giveaway: disabled
+giveaway-permissionroleid: 1003311665657417854
+giveaway-embed-description: null
+giveaway-embed-title: '%price%'
+giveaway-embed-string: 'Endet: **%duration%** \nGehosted von: %hoster% \nTeilnehmer: **%entries%** \nGewinner: **%winners%**'
+giveaway-embed-image: null
+giveaway-embed-thumbmail: null
+giveaway-embed-footer: '%time%'
+giveaway-embed-color: 'CYAN'
+giveaway-already-entered: 'Du bist dem Giveaway bereits beigetreten'
+giveaway-already-entered-button: 'Giveaway verlassen'
+giveaway-entered: 'Du nimmst nun am Giveaway teil.'
+giveaway-ended-description: null
+giveaway-ended-title: '%price%'
+giveaway-ended-string: 'Beendet: %duration% \nGehostet von: %mentioned% \nTeilnehmer: %entries% \nGewinner: %winnermentioned%'
+giveaway-ended-thumbmail: null
+giveaway-ended-image: null
+giveaway-ended-color: GRAY
+giveaway-ended-footer: '%time%'
+giveaway-ended-message: 'Herzlichen Glückwunsch: %winnermentioned%.'
+giveaway-leave-title: 'Giveaway verlassen'
+giveaway-leave-string: 'Du nimmst nun nicht mehr am Giveaway teil.'
+giveaway-leave-color: RED
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                               (Boost Message) Config
+#                                                                         ↓
+boostmessage: disabled
+boostmessage-channelid: 1003311666265604189
+boostmessage-description: null
+boostmessage-title: 'Ein neuer Booster ist aufgetaucht.'
+boostmessage-string: 'Vielen Dank %mentioned% für das Boosten! Wir haben dank dir nun **%boostsize%** Boosts.'
+boostmessage-thumbmail: null
+boostmessage-image: https://next-bots.eu/assets/dc/Nitro.png
+boostmessage-color: MAGENTA
+boostmessage-footer: null
+boostmessage-footer-urlicon: null
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                               (Ticket Review) Config
+#                                                                       ↓
+review-1: disabled
+review-1-categoryid: 1030211574713036870
+review-1-author-string: 'Next-Bots'
+review-1-author-url: 'https://Next-Bots.eu'
+review-1-author-urlicon: 'https://next-bots.eu/assets/logo/Animated.gif'
+review-1-description: null
+review-1-title: 'Produkt fertiggestellt'
+review-1-string: 'Lieber Kunde, du hast dein Produkt erhalten. \nWir würden gerne wissen wie zufrieden du mit unserem Support und deinem Produkt bist, indem du uns bewertest.'
+review-1-image: null
+review-1-thumbmail: 'https://next-bots.eu/assets/logo/Animated.gif'
+review-1-footer: null
+review-1-color: CYAN
+review-1-selectmenu-placeholder: 'Wähle eine Bewertung aus!'
+review-1-selectmenu-1: '⭐1 Stern'
+review-1-selectmenu-2: '⭐2 Sterne'
+review-1-selectmenu-3: '⭐3 Sterne'
+review-1-selectmenu-4: '⭐4 Sterne'
+review-1-selectmenu-5: '⭐5 Sterne'
+review-1-answer: 'Vielen Dank für deine Bewertung!'
+review-1-modal-title: 'Ticket Rating'
+review-1-modal-headline: 'Ticket Rating'
+review-1-modal-placeholder: 'Bitte schreibe hier deine Bewertung rein.'
+review-1-logs-channelid: 1034784906703806534
+review-1-logs-description: '**New Ticket Review**'
+review-1-logs-title: 'Ticket Information'
+review-1-logs-string: '> Ticket Creator: %member%\n> Category: %categoryname%'
+review-1-logs-title-2: 'Review'
+review-1-logs-string-2: '> %stars% \n> %textreview%'
+review-1-logs-thumbmail: '%targetavatar%'
+review-1-logs-notextreview: 'Es wurde kein Review abgesendet!'
+
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Ticket Stats Config
+
+ticketcount-stats-channelid: null
+ticketcount-stats-categoryids: 1091815313496080465, 1030211265555091546
+ticketcount-stats-channelname: '┃・Offene Tickets: %count%'
+
+  #-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  #Diese Config ist dafür das Du hier für den (Add Mentioned Command) deine Einstellungen ändern kannst!
+
+#                          (Add Mentioned) Config
+#                                    ↓
+ticket-addmentioned: disabled
+ticket-addmentioned-usage: 'Usage: **!add @Role/@User**'
+ticket-addmentioned-permission: 1054877291362136187
+ticket-addmentioned-member-message: '%mentionedmember% wurde erfolgreich zum Ticket hinzugefügt.'
+ticket-addmentioned-role-message: 'Die Rolle %mentionedrole% wurde erfolgreich zum Ticket hinzugefügt.'
+
+#                          (Remove Mentioned) Config
+#                                    ↓
+ticket-removementioned: disabled
+ticket-removementioned-usage: 'Usage: **!remove @Role/@User**'
+ticket-removementioned-permission: 1054877291362136187
+ticket-removementioned-member-message: '%mentionedmember% wurde erfolgreich vom Ticket entfernt.'
+ticket-removementioned-role-message: 'Die Rolle %mentionedrole% wurde erfolgreich vom Ticket entfernt.'
+
+#                          (Rename Mentioned) Config
+#                                    ↓
+ticket-rename: disabled
+ticket-rename-permission: 1054877291362136187
+ticket-rename-usage: 'Usage: **!rename (New Ticketname)**'
+ticket-rename-newname: '┃🎫・%newticketname%'
+ticket-rename-message: 'Ticketname erfolgreich in %newticketname% geändert.'
+
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Wenn du die alte Config hast ab hier kopieren und bei der alten Config ab dem Argument ticket-close bis nach unten replacen.
+
+#                                   (Ticket closed) Config
+#                                             ↓ 
+ticket-closed-button-name: 'Ticket schließen'
+ticket-closed-button-emoji: 🔒
+ticket-closed-description: Ticket geschlossen
+ticket-closed-title: 'Ticket-Ersteller'
+ticket-closed-string: '%ticketcreator%'
+ticket-closed-title-2: 'Geschlossen von'
+ticket-closed-string-2: '%ticketcloser%'
+ticket-closed-title-3: 'ChannelID'
+ticket-closed-string-3: '%channelid%'
+ticket-closed-title-4: 'Geöffnet am'
+ticket-closed-string-4: '%opendate%'
+ticket-closed-title-5: 'Geschlossen am'
+ticket-closed-string-5: '%actualdate%'
+ticket-closed-thumbmail: %useravatar%
+ticket-closed-image: null
+ticket-closed-footer: %timestamp%
+ticket-closed-color: RED
+ticket-closed-button-transcript: 'Transcript'
+ticket-closed-button-transcript-emoji: 📝
+ticket-closed-button-reopen: 'Öffnen'
+ticket-closed-button-reopen-emoji: 🔓
+ticket-closed-button-delete: 'Löschen'
+ticket-closed-button-delete-emoji: ✖
+ticket-closed-transcript-sendtouser: disabled
+ticket-closed-transcript-sendinchannel: disabled
+ticket-closed-transcript-logs-channelid: 993893517833281596
+
+#                                   (Ticket reopen) Config
+#                                             ↓ 
+ticket-reopen-title: 'Ticket wiedergeöffnet'
+ticket-reopen-string: 'Das Ticket wurde von **%name%** geöffnet.'
+ticket-reopen-description: null
+ticket-reopen-thumbmail: null
+ticket-reopen-image: null
+ticket-reopen-footer: null
+ticket-reopen-color: GREEN
+
+#                                   (Ticket delete) Config
+#                                             ↓ 
+ticket-delete-title: 'Ticket wird gelöscht'
+ticket-delete-string: 'Das Ticket wird in Kürze gelöscht...'
+ticket-delete-description: null
+ticket-delete-thumbmail: null
+ticket-delete-image: null
+ticket-delete-footer: null
+ticket-delete-color: RED
+
+#                                        (Ticket) Config
+#                                             ↓ 
+ticket-1: enabled
+ticket-1-messageid: 1150915287772835884
+ticket-1-selectionmenu-id: Ticket
+ticket-1-selectionmenu-value: Support
+ticket-1-categoryid: 1150915287772835882
+ticket-1-ticketname: '┃🎫・ticket-%name%'
+ticket-1-permissionroleid: 1150915285495316581
+ticket-1-logchannel: 1150915289689641041
+ticket-1-embed-title: 'Willkommen'
+ticket-1-embed-string: 'Schildere dein Problem/Anliegen nach Eröffnung des Tickets.\nDas Support-Team wird das Ticket nach der Eröffnung,\nso schnell wie möglich bearbeiten.\n\n**Unterlasse das Pingen von Teammitgliedern**\n\nReagiere mit \uD83D\uDD12 um das Ticket zu schließen.'
+ticket-1-embed-description: null
+ticket-1-embed-thumbmail: 
+ticket-1-embed-image: null
+ticket-1-embed-footer: null
+ticket-1-embed-color: blue
+ticket-1-privatemessage-description: null
+ticket-1-privatemessage-title: 'Ticket erstellt!'
+ticket-1-privatemessage-string: 'Dir wurde ein Ticket erstellt. %ticketmentioned%'
+ticket-1-privatemessage-color: GREEN
+ticket-1-privatemessage-thumbmail: null
+ticket-1-privatemessage-image: null
+ticket-1-privatemessage-footer: null
+
+#                                        (Ticket 2) Config
+#                                             ↓ 
+ticket-2: disabled
+ticket-2-messageid: 1013833458948259880
+ticket-2-selectionmenu-id: Ticket
+ticket-2-selectionmenu-value: Fraktions Ticket
+ticket-2-categoryid: 991880228957868073
+ticket-2-ticketname: '┃📜・ticket-%name%'
+ticket-2-permissionroleid: 959538292519469056
+ticket-2-logchannel: 993893517833281596
+ticket-2-embed-title: 'Willkommen'
+ticket-2-embed-string: 'Schildere dein Problem/Anliegen nach Eröffnung des Tickets.\nDas Support-Team wird das Ticket nach der Eröffnung,\nso schnell wie möglich bearbeiten.\n\n**Unterlasse das Pingen von Teammitgliedern**\n\nReagiere mit \uD83D\uDD12 um das Ticket zu schließen.'
+ticket-2-embed-description: null
+ticket-2-embed-thumbmail: https://next-bots.eu/assets/dc/products/NextTicketSystem.png
+ticket-2-embed-image: null
+ticket-2-embed-footer: null
+ticket-2-embed-color: blue
+ticket-2-privatemessage-description: null
+ticket-2-privatemessage-title: 'Ticket erstellt!'
+ticket-2-privatemessage-string: 'Dir wurde ein Ticket erstellt. %ticketmentioned%'
+ticket-2-privatemessage-color: GREEN
+ticket-2-privatemessage-thumbmail: null
+ticket-2-privatemessage-image: null
+ticket-2-privatemessage-footer: null
+
+#                                        (Ticket 3) Config
+#                                             ↓ 
+ticket-3: disabled
+ticket-3-messageid: 1013833458948259880
+ticket-3-selectionmenu-id: Ticket
+ticket-3-selectionmenu-value: Spenden Ticket
+ticket-3-categoryid: 959538316296999022
+ticket-3-ticketname: '┃💵・ticket-%name%'
+ticket-3-permissionroleid: 959538285301088316
+ticket-3-logchannel: 993893517833281596
+ticket-3-embed-title: 'Willkommen'
+ticket-3-embed-string: 'Schildere dein Problem/Anliegen nach Eröffnung des Tickets.\nDas Support-Team wird das Ticket nach der Eröffnung,\nso schnell wie möglich bearbeiten.\n\n**Unterlasse das Pingen von Teammitgliedern**\n\nReagiere mit \uD83D\uDD12 um das Ticket zu schließen.'
+ticket-3-embed-description: null
+ticket-3-embed-thumbmail: https://next-bots.eu/assets/dc/products/NextTicketSystem.png
+ticket-3-embed-image: null
+ticket-3-embed-footer: null
+ticket-3-embed-color: blue
+ticket-3-privatemessage-description: null
+ticket-3-privatemessage-title: 'Ticket erstellt!'
+ticket-3-privatemessage-string: 'Dir wurde ein Ticket erstellt. %ticketmentioned%'
+ticket-3-privatemessage-color: GREEN
+ticket-3-privatemessage-thumbmail: null
+ticket-3-privatemessage-image: null
+ticket-3-privatemessage-footer: null
+
+#                                        (Ticket 4) Config
+#                                             ↓ 
+ticket-4: disabled
+ticket-4-messageid: 1013833458948259880
+ticket-4-selectionmenu-id: Ticket
+ticket-4-selectionmenu-value: HighTeam Ticket
+ticket-4-categoryid: 1013822616496246894
+ticket-4-ticketname: '┃🏵️・ticket-%name%'
+ticket-4-permissionroleid: 959538280397930556
+ticket-4-logchannel: 993893517833281596
+ticket-4-embed-title: 'Willkommen'
+ticket-4-embed-string: 'Schildere dein Problem/Anliegen nach Eröffnung des Tickets.\nDas Support-Team wird das Ticket nach der Eröffnung,\nso schnell wie möglich bearbeiten.\n\n**Unterlasse das Pingen von Teammitgliedern**\n\nReagiere mit \uD83D\uDD12 um das Ticket zu schließen.'
+ticket-4-embed-description: null
+ticket-4-embed-thumbmail: https://next-bots.eu/assets/dc/products/NextTicketSystem.png
+ticket-4-embed-image: null
+ticket-4-embed-footer: null
+ticket-4-embed-color: blue
+ticket-4-privatemessage-description: null
+ticket-4-privatemessage-title: 'Ticket erstellt!'
+ticket-4-privatemessage-string: 'Dir wurde ein Ticket erstellt. %ticketmentioned%'
+ticket-4-privatemessage-color: GREEN
+ticket-4-privatemessage-thumbmail: null
+ticket-4-privatemessage-image: null
+ticket-4-privatemessage-footer: null
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                                               (Selectmenu Ticketsystem) Config
+#                                                                              ↓
+embed-template-1: disabled
+embed-template-1-command: !ticketselectmenu
+embed-template-1-permissionroleid: 544654165465465465
+embed-template-1-description: null
+embed-template-1-thumbmail: 
+embed-template-1-image: null
+embed-template-1-footer: null
+embed-template-1-color: BLUE
+embed-template-1-fields-number: 1
+embed-template-1-field-1-title: 'Ticket erstellen'
+embed-template-1-field-1-string: 'Hier kannst du ein Ticket erstellen um Supportzu erhalten. \n\nWir bitten dich, dein Anliegen gleich nach dem Erstellen des Tickets zu erläutern.'
+embed-template-1-field-2-title: ''
+embed-template-1-field-2-string: ''
+embed-template-1-field-3-title: ''
+embed-template-1-field-3-string: ''
+embed-template-1-field-4-title: ''
+embed-template-1-field-4-string: ''
+embed-template-1-field-5-title: ''
+embed-template-1-field-5-string: ''
+embed-template-1-field-6-title: ''
+embed-template-1-field-6-string: ''
+embed-template-1-selectmenu-id: 'Ticket'
+embed-template-1-selectmenu-placeholder: 'Wähle aus'
+
+#                                       Hier kannst du die Beschreibung und den Namen vom Ticket im Select Menu ändern (und welche hinzufügen)
+#                                                                                   ↓
+embed-template-1-selectmenu-1: 'Support'
+embed-template-1-selectmenu-1-emoji: 🎫
+embed-template-1-selectmenu-1-description: 'Klicke um ein Support-Ticket zu öffnen'
+
+embed-template-1-selectmenu-2: 'Fraktion'
+embed-template-1-selectmenu-2-emoji: 🎟️
+embed-template-1-selectmenu-2-description: 'Klicke um ein Fraktions-Ticket zu öffnen'
+
+embed-template-1-selectmenu-3: 'High-Team'
+embed-template-1-selectmenu-3-emoji: 🎟️
+embed-template-1-selectmenu-3-description: 'Klicke um ein High-Team Ticket zu öffnen'
+
+embed-template-1-selectmenu-4: null
+embed-template-1-selectmenu-4-emoji: 🎟️
+embed-template-1-selectmenu-4-description: 'Klicke um ein Fraktions-Ticket zu öffnen'
+
+embed-template-1-selectmenu-5: null
+embed-template-1-selectmenu-5-emoji: 🎟️
+embed-template-1-selectmenu-5-description: 'Klicke um ein Fraktions-Ticket zu öffnen'
+
+embed-template-1-selectmenu-6: null
+embed-template-1-selectmenu-6-emoji: 🎟️
+embed-template-1-selectmenu-6-description: 'Klicke um ein Fraktions-Ticket zu öffnen'
+
+embed-template-1-selectmenu-7: null
+embed-template-1-selectmenu-7-emoji: 🎟️
+embed-template-1-selectmenu-7-description: 'Klicke um ein Fraktions-Ticket zu öffnen'
+
+embed-template-1-selectmenu-8: null
+embed-template-1-selectmenu-8-emoji: 🎟️
+embed-template-1-selectmenu-8-description: 'Klicke um ein Fraktions-Ticket zu öffnen'
+
+embed-template-1-selectmenu-9: null
+embed-template-1-selectmenu-9-emoji: 🎟️
+embed-template-1-selectmenu-9-description: 'Klicke um ein Fraktions-Ticket zu öffnen'
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#                                            Hier kannst du deine Einstellungen für den Embed Creator ändern
+#                                                                            ↓
+embed-template-2: disabled
+embed-template-2-command: !ticket
+embed-template-2-permissionroleid: 544654165465465465
+embed-template-2-description: 'Ticket erstellen'
+embed-template-2-thumbmail: https://s20.directupload.net/images/220420/pbolpc9l.png
+embed-template-2-image: null
+embed-template-2-footer: null
+embed-template-2-color: BLUE
+embed-template-2-fields-number: 3
+embed-template-2-field-1-title: 'Support'
+embed-template-2-field-1-string: 'Mit :ticket: reagieren um Support-Ticket zu öffnen.'
+embed-template-2-field-2-title: 'High-Team'
+embed-template-2-field-2-string: 'Mit (Reaktion) reagieren um HighTeam-Ticket zu öffnen.'
+embed-template-2-field-3-title: 'Fraktionsverwaltung'
+embed-template-2-field-3-string: 'Mit (Reaktion) reagieren um Fraktions-Ticket zu öffnen.'
+embed-template-2-field-4-title: ''
+embed-template-2-field-4-string: ''
+embed-template-2-field-5-title: ''
+embed-template-2-field-5-string: ''
+embed-template-2-field-6-title: ''
+embed-template-2-field-6-string: ''
+embed-template-2-selectmenu-id: null
+embed-template-2-selectmenu-placeholder: null
+embed-template-2-selectmenu-1: null
+embed-template-2-selectmenu-2: null
+embed-template-2-selectmenu-3: null
+embed-template-2-selectmenu-4: null
+embed-template-2-selectmenu-5: null
+embed-template-2-selectmenu-6: null
+embed-template-2-selectmenu-7: null
+embed-template-2-selectmenu-8: null
+embed-template-2-selectmenu-9: null
+
+embed-template-3: disabled
+embed-template-3-command: !reaction
+embed-template-3-permissionroleid: 544654165465465465
+embed-template-3-description: null
+embed-template-3-thumbmail: https://s20.directupload.net/images/220420/pbolpc9l.png
+embed-template-3-image: null
+embed-template-3-footer: null
+embed-template-3-color: BLUE
+embed-template-3-fields-number: 1
+embed-template-3-field-1-title: 'Ping Rolle'
+embed-template-3-field-1-string: 'Mit :envelope_with_arrow: reagieren um die Ping-Rolle zu erhalten.'
+embed-template-3-field-2-title: ''
+embed-template-3-field-2-string: ''
+embed-template-3-field-3-title: ''
+embed-template-3-field-3-string: ''
+embed-template-3-field-4-title: ''
+embed-template-3-field-4-string: ''
+embed-template-3-field-5-title: ''
+embed-template-3-field-5-string: ''
+embed-template-3-field-6-title: ''
+embed-template-3-field-6-string: ''
+embed-template-3-selectmenu-id: null
+embed-template-3-selectmenu-placeholder: null
+embed-template-3-selectmenu-1: null
+embed-template-3-selectmenu-2: null
+embed-template-3-selectmenu-3: null
+embed-template-3-selectmenu-4: null
+embed-template-3-selectmenu-5: null
+embed-template-3-selectmenu-6: null
+embed-template-3-selectmenu-7: null
+embed-template-3-selectmenu-8: null
+embed-template-3-selectmenu-9: null
+
+embed-template-4: disabled
+embed-template-4-command: !reaction
+embed-template-4-permissionroleid: 544654165465465465
+embed-template-4-description: null
+embed-template-4-thumbmail: https://s20.directupload.net/images/220420/pbolpc9l.png
+embed-template-4-image: null
+embed-template-4-footer: null
+embed-template-4-color: BLUE
+embed-template-4-fields-number: 1
+embed-template-4-field-1-title: 'Ping Rolle'
+embed-template-4-field-1-string: 'Mit :envelope_with_arrow: reagieren um die Ping-Rolle zu erhalten.'
+embed-template-4-field-2-title: ''
+embed-template-4-field-2-string: ''
+embed-template-4-field-3-title: ''
+embed-template-4-field-3-string: ''
+embed-template-4-field-4-title: ''
+embed-template-4-field-4-string: ''
+embed-template-4-field-5-title: ''
+embed-template-4-field-5-string: ''
+embed-template-4-field-6-title: ''
+embed-template-4-field-6-string: ''
+embed-template-4-selectmenu-id: null
+embed-template-4-selectmenu-placeholder: null
+embed-template-4-selectmenu-1: null
+embed-template-4-selectmenu-2: null
+embed-template-4-selectmenu-3: null
+embed-template-4-selectmenu-4: null
+embed-template-4-selectmenu-5: null
+embed-template-4-selectmenu-6: null
+embed-template-4-selectmenu-7: null
+embed-template-4-selectmenu-8: null
+embed-template-4-selectmenu-9: null
+
+embed-template-5: disabled
+embed-template-5-command: !reaction
+embed-template-5-permissionroleid: 544654165465465465
+embed-template-5-description: null
+embed-template-5-thumbmail: https://s20.directupload.net/images/220420/pbolpc9l.png
+embed-template-5-image: null
+embed-template-5-footer: null
+embed-template-5-color: BLUE
+embed-template-5-fields-number: 1
+embed-template-5-field-1-title: 'Ping Rolle'
+embed-template-5-field-1-string: 'Mit :envelope_with_arrow: reagieren um die Ping-Rolle zu erhalten.'
+embed-template-5-field-2-title: ''
+embed-template-5-field-2-string: ''
+embed-template-5-field-3-title: ''
+embed-template-5-field-3-string: ''
+embed-template-5-field-4-title: ''
+embed-template-5-field-4-string: ''
+embed-template-5-field-5-title: ''
+embed-template-5-field-5-string: ''
+embed-template-5-field-6-title: ''
+embed-template-5-field-6-string: ''
+embed-template-5-selectmenu-id: null
+embed-template-5-selectmenu-placeholder: null
+embed-template-5-selectmenu-1: null
+embed-template-5-selectmenu-2: null
+embed-template-5-selectmenu-3: null
+embed-template-5-selectmenu-4: null
+embed-template-5-selectmenu-5: null
+embed-template-5-selectmenu-6: null
+embed-template-5-selectmenu-7: null
+embed-template-5-selectmenu-8: null
+embed-template-5-selectmenu-9: null
+

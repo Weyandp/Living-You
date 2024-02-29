@@ -1,0 +1,43 @@
+#Kleine Erklärung zum Aufsetzen eines WS-DiscordBots#
+--------------------------------------------------------------------------
+
+Wie installiere ich Java auf meinen Server wenn ich das noch nicht habe?
+
+Linux:
+apt-get update
+apt-get upgrade
+apt install openjdk-11-jre-headless -y
+
+Windows:
+https://next-bots.eu/java
+
+--------------------------------------------------------------------------
+Erstelle hier einen DiscordBot und lade ihn auf deinen Discord ein:
+https://discord.com/developers/applications
+
+Aktiviere dort außerdem die 3 Intents in der Kategorie Bot.
+- PRESENCE INTENT
+- SERVER MEMBERS INTENT
+- MESSAGE CONTENT INTENT
+
+--------------------------------------------------------------------------
+
+Wie starte ich meinen Bot?
+
+Linux: 
+
+Schritt 1:
+cd /home/[Pfad wo der Bot gespeichert ist]
+
+Schritt 2 [einmalig]:
+chmod 777 start.sh
+
+Schritt 3:
+./start.sh 
+
+Zum Stoppen: Strg + C
+
+
+Windows:
+Einfach auf die start.bat klicken
+

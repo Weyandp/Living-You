@@ -1,0 +1,1 @@
+screen -S DiscordBot java -jar DiscordBot.jar
